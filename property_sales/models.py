@@ -26,3 +26,6 @@ class SalesRecord(models.Model):
     assessor_remarks = models.CharField(_('professional remarks'), max_length=1000)
     opm_remarks = models.CharField(_('official comment'), max_length=1000)
     # location = gis_models.PointField(_('geographic coordinate'))
+    
+    def __str__(self):
+        return self.address
