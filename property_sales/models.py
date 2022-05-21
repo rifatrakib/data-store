@@ -1,5 +1,5 @@
 from django.utils.translation import gettext_lazy as _
-from django.contrib.gis.db import models as gis_models
+# from django.contrib.gis.db import models as gis_models
 from django.db import models
 
 
@@ -25,4 +25,4 @@ class SalesRecord(models.Model):
     non_use_code = models.CharField(_('use state code'), max_length=50)
     assessor_remarks = models.CharField(_('professional remarks'), max_length=1000)
     opm_remarks = models.CharField(_('official comment'), max_length=1000)
-    location = gis_models.PointField(_('geographic coordinate'))
+    # location = gis_models.PointField(_('geographic coordinate'))
