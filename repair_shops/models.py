@@ -2,7 +2,7 @@ from django.db import models
 
 
 class AutomobileRepairShop(models.Model):
-    id = models.CharField(max_length=30, unique=True)
+    shop_id = models.CharField(max_length=30, unique=True)
     business_name = models.CharField(max_length=200, unique=True)
     business_address = models.CharField(max_length=500)
     city = models.CharField(max_length=100)

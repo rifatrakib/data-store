@@ -1,3 +1,4 @@
 from django.contrib import admin
+from repair_shops.models import AutomobileRepairShop
 
-# Register your models here.
+admin.site.register(AutomobileRepairShop)
