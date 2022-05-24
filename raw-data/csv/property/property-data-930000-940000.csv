@@ -1,0 +1,622 @@
+|address|assessed_value|date_recorded|geo_coordinates|id|list_year|non_use_code|opm_remarks|property_type|remarks|residential_type|sales_amount|sales_ratio|serial_number|town
+930000|21 Butternut Dr|183970.0|2019-11-01T00:00:00||row-dajf.5ssp~zhi7|2019|||Single Family||Single Family|331500.0|0.555|19045|Farmington
+930001|268 Congress Ave #1|40280.0|2019-11-01T00:00:00||row-bnxb.2qxe-sejj|2019|25 - Other||Condo|Bulk transfer|Condo|70000.0|0.5754|190145|Waterbury
+930002|22 Hurlingham Drive|12858100.0|2019-11-01T00:00:00||row-xmq8-65mu~2gan|2019|||Single Family||Single Family|8475000.0|1.5172|190086|Greenwich
+930003|5 Allison St|92060.0|2019-11-05T00:00:00|[{'type': 'Point', 'coordinates': [-72.634617, 41.553263]}]|row-svap.5as4-2mux|2019|||Two Family||Two Family|175000.0|0.5261|190096|Middletown
+930004|1 Shepards Path|159320.0|2019-11-05T00:00:00||row-68sy.yx93-t924|2019|14 - Foreclosure||Single Family|Foreclosure sale|Single Family|167000.0|0.954012|1900065|New Milford
+930005|54 Pinner Lane|374210.0|2019-11-05T00:00:00||row-vhbn-2t2q-ajg4|2019|08 - Part Interest||Single Family|Partial interest sold|Single Family|45000.0|8.3158|1900195|Stamford
+930006|17 Denison Ave|108430.0|2019-11-01T00:00:00|[{'type': 'Point', 'coordinates': [-72.102319, 41.344239]}]|row-ei2a~fzn9-jvzd|2019|||Single Family||Single Family|159900.0|0.6781|190029|New London
+930007|80 Atwater St|110740.0|2019-11-01T00:00:00|[{'type': 'Point', 'coordinates': [-72.892837, 41.311952]}]|row-9hdu.zpgm-h6cj|2019|||Two Family||Two Family|190000.0|0.5828|190091|New Haven
+930008|287 Eagles Landing|207060.0|2019-11-01T00:00:00||row-xfun-cd7k~zyrj|2019|||Condo||Condo|300000.0|0.6902|190072|Shelton
+930009|134 Indian Hollow Rd|152820.0|2019-10-31T00:00:00||row-m5e2~53kk-u8jx|2019|||Single Family||Single Family|270000.0|0.566|190026|Windham
+930010|51 Old Village Cir|227780.0|2019-10-31T00:00:00||row-w4ap.vk4n~h93d|2019|||Single Family||Single Family|392704.0|0.58|190052|Windsor
+930011|33 North Water St Unit A/508|348720.0|2019-10-31T00:00:00||row-i3tp-px2b-iqhd|2019|||Condo|2-19-20-a/508|Condo|520000.0|0.6706|190094|Norwalk
+930012|273 Meadows|139410.0|2019-11-07T00:00:00||row-8va8.6yym~7qk4|2019|25 - Other||Condo|Not on open market|Condo|232500.0|0.5996|190073|Enfield
+930013|14 Smith Farm Rd|352550.0|2019-11-07T00:00:00||row-a9e4~bvah~3jqy|2019|||Single Family||Single Family|487000.0|0.7239|190020|Hebron
+930014|52 Charlton Hill Rd U52|107590.0|2019-11-07T00:00:00|[{'type': 'Point', 'coordinates': [-72.899069, 41.399789]}]|row-ycqw~2e36~sqe6|2019|||Single Family||Single Family|179000.0|0.6011|190092|Hamden
+930015|11 Old Lantern Rd|195930.0|2019-11-07T00:00:00||row-gudh~j5ud.6uwe|2019|||Single Family||Single Family|278000.0|0.7048|1900068|New Milford
+930016|120 Boy St|214270.0|2019-11-07T00:00:00|[{'type': 'Point', 'coordinates': [-72.955237, 41.706848]}]|row-58bq-6num~eyxg|2019|||Single Family||Single Family|310000.0|0.6912|190115|Bristol
+930017|424 Cherry Brook Road|150310.0|2019-11-07T00:00:00|[{'type': 'Point', 'coordinates': [-72.896715, 41.87941]}]|row-fwk4~ayhg-kjb6|2019|||Single Family||Single Family|205000.0|0.7332|190027|Canton
+930018|14 Forbes St|72570.0|2019-11-06T00:00:00|[{'type': 'Point', 'coordinates': [-72.607842, 41.77634]}]|row-h65e-np7x-z9uj|2019|07 - Change In Property||Single Family|Major improvments house flipper|Single Family|145000.0|0.5005|19088|East Hartford
+930019|16 Anchorage Cir|340060.0|2019-11-06T00:00:00|[{'type': 'Point', 'coordinates': [-72.012067, 41.320569]}]|row-dwr7~xbuk-hxbp|2019|07 - Change In Property|Also see #190512 - house mostly gutted per mls|Single Family||Single Family|350000.0|0.9716|190084|Groton
+930020|23 Raycroft St|41650.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-73.094625, 41.214293]}]|row-znec~hpcx~a4rf|2019|11 - Court Order|||||111554.08|0.3734|190099|Milford
+930021|288 Strawberry Hill Ave|375670.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-73.391212, 41.124163]}]|row-pdtq.j7xw.hkt8|2019|||Single Family|5-8-125-0|Single Family|572000.0|0.6568|190074|Norwalk
+930022|85 Hunters Ln|297810.0|2019-10-28T00:00:00||row-dx3d~wriq-bxq2|2019|||Single Family||Single Family|439500.0|0.6776|190063|Southington
+930023|24 Regatta Dr|259980.0|2019-10-22T00:00:00||row-dajs~djm5~jtwd|2019|||Condo||Condo|400000.0|0.65|190023|East Lyme
+930024|244 Brewster Rd|241370.0|2019-10-22T00:00:00|[{'type': 'Point', 'coordinates': [-73.01069, 41.234007]}]|row-6kiy.ytqy~6y69|2019|||Single Family||Single Family|390000.0|0.6189|190062|Milford
+930025|47 Sawmill Rd|126740.0|2019-10-22T00:00:00|[{'type': 'Point', 'coordinates': [-73.044677, 41.701503]}]|row-wim2-4cxi~zrk3|2019|||Single Family||Single Family|162500.0|0.7799|190011|Plymouth
+930026|4 Sail Harbour Dr|748200.0|2019-10-31T00:00:00|[{'type': 'Point', 'coordinates': [-73.469661, 41.535354]}]|row-9u9y-3zkw.ybyg|2019|16 - Charitable Group||Single Family||Single Family|800000.0|0.9353|190011|Sherman
+930027|144 Wakefield Circle|56970.0|2019-10-31T00:00:00|[{'type': 'Point', 'coordinates': [-72.606806, 41.760702]}]|row-8pyr.t2g5-txu9|2019|||Condo||Condo|73900.0|0.7709|19065|East Hartford
+930028|53 Basley Rd|102200.0|2019-10-21T00:00:00||row-hjpg~fw6x-pwnz|2019|||Single Family||Single Family|175000.0|0.584|19021|Plainfield
+930029|221 Crater Lane|147200.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.777955, 41.618649]}]|row-vmmb-xri9-bwhj|2019|||Single Family|Qualified sale|Single Family|240000.0|0.6133|190020|Berlin
+930030|1 E Hayestown Rd #155|167700.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-73.450945, 41.417043]}]|row-xneq.yhck.yc39|2019|14 - Foreclosure||Condo|I10051-155|Condo|202800.0|0.8269|190066|Danbury
+930031|246 Center Hill Rd|131500.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-72.972244, 41.943544]}]|row-wns2~bnax.qa8d|2019|||Single Family|1970 ranch, 1504 sfla on 1 ac|Single Family|224900.0|0.584704|19002|Barkhamsted
+930032|29 Birmingham Ct|87150.0|2019-10-28T00:00:00||row-ec93-aahv~cadi|2019|07 - Change In Property|Total renovation per mls|Single Family||Single Family|189000.0|0.4611|190060|Groton
+930033|93 Cannon Ridge Dr|97000.0|2019-10-17T00:00:00||row-c8jb-z5bn.ypej|2019|||Condo||Condo|148500.0|0.6532|19018|Watertown
+930034|144 Warrington Rn|261700.0|2019-10-17T00:00:00||row-msun.i832-qdfh|2019|||Condo|B15001-57-144|Condo|392000.0|0.6676|190064|Danbury
+930035|105-107 Suburban Ave|154700.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-73.217029, 41.192447]}]|row-qffn.r2r6~na8c|2019|||Three Family||Three Family|364000.0|0.425|190114|Bridgeport
+930036|8 Queen Eleanor Dr|197540.0|2019-10-21T00:00:00||row-pnza-aghu-nrrj|2019|14 - Foreclosure||Single Family|Sale of foreclosure|Single Family|206578.0|0.9562|190016|Ledyard
+930037|38 Brookmoor Road|231760.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.885263, 41.786858]}]|row-zh6m.jaq9~cc6a|2019|||Single Family||Single Family|300000.0|0.7725|190020|Avon
+930038|710 Brayman Hollow Rd|144800.0|2019-10-08T00:00:00||row-hrid-jmym-52y5|2019|||Single Family||Single Family|185000.0|0.7827|190007|Pomfret
+930039|2 Clayton Rd|181900.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-73.465897, 41.421765]}]|row-ankw.7tdk.cd5g|2019|||Single Family|H09009|Single Family|265000.0|0.6864|190024|Danbury
+930040|27 Abner Ct|57030.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-73.223751, 41.214707]}]|row-gfpz-qrws-9626|2019||No mls|Condo||Condo|168000.0|0.3395|190048|Bridgeport
+930041|3 Tidewater Ln|92900.0|2019-10-16T00:00:00||row-q9ii-79ts~edaf|2019|07 - Change In Property||Condo||Condo|438820.0|0.2117|190014|Clinton
+930042|119 West Shore Rd|1205480.0|2019-10-16T00:00:00||row-mqch-fedw-fcm8|2019|||Single Family||Single Family|1575000.0|0.7654|190003|Washington
+930043|29 Bailey Street|278040.0|2019-10-16T00:00:00||row-qdb2~f8sx.e4ye|2019|||Single Family||Single Family|403500.0|0.6891|190035|Trumbull
+930044|82 Quinn Street|136060.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-73.063197, 41.497107]}]|row-h9cg.9egi.6rxi|2019|||Single Family|Arms length sale|Single Family|204000.0|0.667|1910045|Naugatuck
+930045|37 Library Lane|45440.0|2019-10-15T00:00:00||row-ddxd-yixe-u2qi|2019|07 - Change In Property||Condo|2016 family sale $67,500 & sold 5/2017 for $85,000|Condo|100000.0|0.4544|190021|Simsbury
+930046|60 Lawn Avenue # 32|187660.0|2019-10-15T00:00:00||row-27zj.yg5t-i9p6|2019|||Condo||Condo|300000.0|0.6255|1900084|Stamford
+930047|1 Skokorat St|185500.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-73.057733, 41.397755]}]|row-z29v~4ixv-g84j|2019|||Four Family||Four Family|435500.0|0.4259|190016|Seymour
+930048|32 Quarry Road|302340.0|2019-10-10T00:00:00||row-rbn8-uvau-zwgu|2019|||Single Family||Single Family|448000.0|0.6749|190015|Waterford
+930049|684 A Heritage Village|114130.0|2019-10-10T00:00:00||row-bane-wmam~ai5t|2019|||Condo||Condo|240000.0|0.4755|190026|Southbury
+930050|116 Evergreen Terrace|118000.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.343343, 41.564062]}]|row-5civ.jc47-uynx|2019|||Single Family||Single Family|174500.0|0.6762|19015|Colchester
+930051|83 Doubleday Road|126000.0|2019-11-05T00:00:00|[{'type': 'Point', 'coordinates': [-72.281195, 41.681405]}]|row-35as-xzjt-t2pf|2019|||Single Family||Single Family|174000.0|0.7241|19012|Columbia
+930052|253 West River St|3058660.0|2019-11-05T00:00:00|[{'type': 'Point', 'coordinates': [-73.059813, 41.232559]}]|row-g2ck-sxwr-j9nf|2019||||||5415000.0|0.564849|190156|Milford
+930053|22 Stanton Lane|177600.0|2019-11-05T00:00:00|[{'type': 'Point', 'coordinates': [-72.008433, 41.550675]}]|row-7hh9.46fi-5isw|2019|||Single Family||Single Family|315000.0|0.5638|190019|Preston
+930054|16 Farm Meadow Road|430090.0|2019-10-09T00:00:00||row-yjsb~m7px-z647|2019|||Single Family||Single Family|725000.0|0.5932|19016|Newtown
+930055|495 Sterling Rd|78540.0|2019-10-09T00:00:00||row-6v8t.ij5k-5yzy|2019|18 - In Lieu Of Foreclosure||Single Family|Cape built 1900 on .35 acres|Single Family|135587.0|0.5793|190002|Sterling
+930056|4015 Park Avenue|242900.0|2019-10-09T00:00:00||row-zsr2~vp6r~y9t7|2019|||Condo||Condo|298000.0|0.8151|190020|Fairfield
+930057|145 Becker Cir|107800.0|2019-10-09T00:00:00||row-uc2x~8zkp.xwzz|2019|10 - A Will||Single Family||Single Family|143000.0|0.7538|190021|Windsor
+930058|26 Coolidge St|9810.0|2019-10-09T00:00:00||row-x87s~2vs9.5i7c|2019|01 - Family|||Other||5000.0|1.962|190024|Southington
+930059|133 Irving St|59850.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.685952, 41.780304]}]|row-umrz.tis2-cu4i|2019|||Three Family||Three Family|209000.0|0.2864|19028|Hartford
+930060|134 Lexington Way South|296460.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-73.085205, 41.240985]}]|row-fnfi-nstm~vq5v|2019|||Single Family||Single Family|467500.0|0.6341|190043|Milford
+930061|133 Foxwood Close|96860.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-73.033535, 41.243544]}]|row-pvje-gevs.3g6d|2019|||Condo||Condo|155000.0|0.6249|190067|Milford
+930062|81 Alberts Hill Road|330560.0|2019-10-21T00:00:00||row-4cf7.9aus-rk8z|2019|||Single Family||Single Family|465000.0|0.7109|19035|Newtown
+930063|125 Prospect Street # 4B|89570.0|2019-10-18T00:00:00||row-x9w7~v2pn.946y|2019|||Condo||Condo|135000.0|0.6635|1900106|Stamford
+930064|7 Hamilton Ct|104360.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.537461, 41.993273]}]|row-u4ze-e37j-kqpx|2019|08 - Part Interest||Single Family||Single Family|118728.0|0.879|190039|Enfield
+930065|114 Collimore Rd|102800.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.62337, 41.796431]}]|row-mi5z~cxpg~kcfd|2019|14 - Foreclosure||Single Family||Single Family|115000.0|0.8939|19043|East Hartford
+930066|29 Purdy Hill Rd|91000.0|2019-10-31T00:00:00||row-ekv6-u5yb-zx55|2019||||||77000.0|1.1818|19028|Monroe
+930067|109 Mundry Rd|38750.0|2019-10-31T00:00:00||row-r43a.v9h7~b42r|2019||||||38000.0|1.0197|190021|Winchester
+930068|8 Georgianna St|97020.0|2019-10-31T00:00:00|[{'type': 'Point', 'coordinates': [-72.113209, 41.360057]}]|row-jwwt-hwku-9ksn|2019|||Single Family||Single Family|144900.0|0.6696|190208|New London
+930069|61 Hawthorne Street|109700.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.529521, 41.784944]}]|row-kec8-y9jm-m958|2019|||Single Family||Single Family|176000.0|0.6233|190048|Manchester
+930070|23 Charles St|124810.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.90169, 41.685849]}]|row-hp87~ebvy-q334|2019|||Single Family||Single Family|160000.0|0.7801|190053|Bristol
+930071|28 White Pine Lane|399000.0|2019-10-18T00:00:00||row-em4a-vpxy-swnp|2019|14 - Foreclosure||Single Family||Single Family|326000.0|1.2239|190046|West Hartford
+930072|49 Bartlett Hollow Rd|225740.0|2019-10-25T00:00:00||row-qr7i.zdbk~3q5f|2019|||Condo||Condo|302000.0|0.7475|190061|Middletown
+930073|138 Center Street|154800.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-72.524993, 41.774447]}]|row-4jug.sh4n~vfw8|2019|||Two Family||Two Family|235000.0|0.6587|190067|Manchester
+930074|99 Miller St|105770.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.790655, 41.679281]}]|row-j87m-qrff~njtm|2019|||Three Family||Three Family|220000.0|0.4808|190045|New Britain
+930075|600 Clark Ave Un 16|73780.0|2019-10-18T00:00:00||row-j2qk~nhrc.nkfu|2019|||Condo||Condo|95000.0|0.7766|190052|Bristol
+930076|68 & 72 River Rd|4760.0|2019-10-23T00:00:00||row-szzx~bwke.hkwg|2019|25 - Other|||1.06 acres non-buildable lot to an abutting owner||11000.0|0.4327|190010|Washington
+930077|151 Ridgecrest Ln|175420.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-72.967901, 41.686706]}]|row-mfds~iehu-5ybk|2019|24 - Plottage||Single Family|Assemblage|Single Family|7500.0|23.3893|190072|Bristol
+930078|36 Hickory Ln|161210.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-73.14293, 41.347468]}]|row-xeyf.zqzq-bu34|2019|||Single Family||Single Family|195000.0|0.8267|190034|Shelton
+930079|9 Althea St|74900.0|2019-10-17T00:00:00||row-6hn6.yxw4-e7eg|2019|25 - Other||Three Family|Estate sale|Three Family|47000.0|1.5936|190068|Waterbury
+930080|61 Waverly Pl|147880.0|2019-10-30T00:00:00|[{'type': 'Point', 'coordinates': [-73.179626, 41.209193]}]|row-q4s3.utr8.3x6w|2019|||Single Family||Single Family|217000.0|0.6815|190180|Bridgeport
+930081|1 Abbott Rd #104|84830.0|2019-10-30T00:00:00|[{'type': 'Point', 'coordinates': [-72.499066, 41.870013]}]|row-eb68-6v4i-6f65|2019|||Condo||Condo|125000.0|0.6786|190024|Ellington
+930082|35 St James Ave|160280.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-72.578896, 42.002279]}]|row-ekur~vyks.ienz|2019|||Single Family||Single Family|281000.0|0.5704|190045|Enfield
+930083|100 Richards Ave Unit 408|219950.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-73.451419, 41.095724]}]|row-7c83-7jpg~f3ru|2019|||Condo|5-69-66-408|Condo|283500.0|0.7758|190069|Norwalk
+930084|9 South St|204000.0|2019-11-12T00:00:00||row-ycsr-erbk.g3gz|2019|||Single Family||Single Family|295900.0|0.6894|190095|Wallingford
+930085|97 Butternut Lane Unit 1A|61950.0|2019-11-12T00:00:00|[{'type': 'Point', 'coordinates': [-72.899595, 41.654584]}]|row-ng2x~ieju.te8c|2019|||Condo||Condo|100000.0|0.6195|190127|Bristol
+930086|63 Lakeview Dr|106000.0|2019-10-24T00:00:00|[{'type': 'Point', 'coordinates': [-72.417565, 41.528022]}]|row-79zt-bf57-93cn|2019|||Single Family||Single Family|150000.0|0.7067|19029|Colchester
+930087|13 Deacon Cir|200920.0|2019-10-24T00:00:00||row-3pxe-uwnk~jy9q|2019|||Single Family||Single Family|265000.0|0.7582|190058|Southington
+930088|30 Parker Rd|132090.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-72.447749, 41.642798]}]|row-sebu-6pgd.5d3w|2019|14 - Foreclosure||Single Family||Single Family|81000.0|1.6307|19008|Marlborough
+930089|18 Charlson La|201110.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-72.898256, 41.360679]}]|row-yvc4.fh5g-3kmk|2019|25 - Other||Single Family|Low sales price|Single Family|160000.0|1.2569|190066|Hamden
+930090|376 Rowayton Ave|444110.0|2019-10-23T00:00:00||row-6f2n.abdw.yi2d|2019|||Single Family|5-80-5c-0|Single Family|570000.0|0.7791|190054|Norwalk
+930091|53 Schroback Rd|191080.0|2019-10-23T00:00:00||row-uygg-94wy-7awd|2019|||Single Family||Single Family|315000.0|0.6066|190014|Plymouth
+930092|81 Rising Trail Dr|79060.0|2019-11-04T00:00:00||row-c8n7~5wbc-q6b9|2019|||Condo||Condo|140000.0|0.5647|190091|Middletown
+930093|92 Hamden Ave #4|43340.0|2019-11-04T00:00:00||row-uq4k.7zy3-4pax|2019|||Condo||Condo|60000.0|0.7223|190154|Waterbury
+930094|13 Gillette Way|49280.0|2019-11-04T00:00:00||row-77iq.89p6~fuwm|2019|07 - Change In Property||Condo|New construction of condo|Condo|245000.0|0.2011|190100|Bristol
+930095|264 Goerge St|166680.0|2019-10-24T00:00:00||row-qkcw.i5ah-5jfz|2019|||Single Family||Single Family|245000.0|0.6803|190059|Middletown
+930096|16 Jubrey Lane|113050.0|2019-10-24T00:00:00||row-i7jv-szia.3xp3|2019|14 - Foreclosure||Single Family||Single Family|65000.0|1.7392|190020|Windsor Locks
+930097|194 Capen St|45220.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-72.68193, 41.785866]}]|row-ux3g-8k4u-v3qs|2019|09 - Tax|||Tax collector's deed||64671.0|0.6992|19091|Hartford
+930098|88 Nelson St|16310.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-72.677707, 41.787809]}]|row-jqm7-2235.b6ds|2019|09 - Tax|||Tax collector's deed||111104.0|0.1468|19089|Hartford
+930099|4 Gregory Blvd|370325.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-73.401272, 41.101267]}]|row-e6fu~m22v-hfb4|2019|||Two Family|3-44-1-0|Two Family|525000.0|0.7054|190083|Norwalk
+930100|188 Brown St|98980.0|2019-10-28T00:00:00||row-m2z8~cby9.din8|2019|07 - Change In Property||Single Family||Single Family|112500.0|0.8798|19062|West Haven
+930101|372 Oakland Street|92300.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-72.517797, 41.806573]}]|row-b22e.uar8-rw4g|2019|||Single Family||Single Family|128000.0|0.7211|190072|Manchester
+930102|36 Sharon Rd #5|21820.0|2019-10-28T00:00:00||row-9qvp~2a3s~9r39|2019|14 - Foreclosure||Condo||Condo|33800.0|0.6456|190117|Waterbury
+930103|3 Carlson Ct|286810.0|2019-10-29T00:00:00||row-gbnh-x7e6~prd5|2019|||Single Family|3-24-113-0|Single Family|437000.0|0.6563|190079|Norwalk
+930104|3931 Park Avenue|199850.0|2019-10-29T00:00:00||row-hfpe~cnst-z3g5|2019|25 - Other||Condo|Quick sale|Condo|235001.0|0.8504|190070|Fairfield
+930105|10 Main Street Unit 416|147700.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-72.777765, 41.630773]}]|row-wbbg~bmdk-gnwy|2019|||Condo|Qualified sale|Condo|222500.0|0.6638|190030|Berlin
+930106|391 Main Street|94570.0|2019-11-04T00:00:00|[{'type': 'Point', 'coordinates': [-72.681587, 41.487112]}]|row-a77b-aizg.whc6|2019|01 - Family||Single Family|Sold within family|Single Family|76000.0|1.2443|19017|Durham
+930107|364 Dover St|57950.0|2019-11-04T00:00:00|[{'type': 'Point', 'coordinates': [-73.167064, 41.198241]}]|row-am6c-jkfx-y8bb|2019|08 - Part Interest||Single Family||Single Family|32500.0|1.7831|190224|Bridgeport
+930108|37 Gloria St|119770.0|2019-10-30T00:00:00||row-cjgc~9t47-ydft|2019|||Single Family||Single Family|185000.0|0.6474|190050|Windsor
+930109|15 Palmer St|109910.0|2019-10-30T00:00:00||row-icez~5fwq~c3x8|2019|||Single Family||Single Family|165000.0|0.6661|19036|Montville
+930110|410 Pequot Ave|330820.0|2019-10-30T00:00:00|[{'type': 'Point', 'coordinates': [-72.093793, 41.329808]}]|row-qwtm~4pce~99cf|2019|||Single Family||Single Family|577000.0|0.5733|190022|New London
+930111|14 Canterbury Rd U14|122570.0|2019-11-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.928141, 41.375568]}]|row-3yj7-jef8.a4uf|2019|||Condo||Condo|260000.0|0.4714|190096|Hamden
+930112|239 Willow St|98420.0|2019-11-04T00:00:00|[{'type': 'Point', 'coordinates': [-73.159087, 41.189732]}]|row-wbn8.6m6u.9zar|2019|07 - Change In Property|Completely renovated per mls|Single Family||Single Family|205300.0|0.4794|190219|Bridgeport
+930113|146 Canoe Hill Rd|1554000.0|2019-11-04T00:00:00|[{'type': 'Point', 'coordinates': [-73.478887, 41.161423]}]|row-v2n8-d6y6.24qc|2019|||Single Family||Single Family|1750000.0|0.888|190033|New Canaan
+930114|46 Cobblestone Road|230200.0|2019-11-01T00:00:00|[{'type': 'Point', 'coordinates': [-72.732119, 41.636284]}]|row-snr7~3y6v-xhhm|2019|08 - Part Interest||Single Family|Non-qualified sale - partial interest|Single Family|150000.0|1.5347|190034|Berlin
+930115|115 Litchfield Rd|98600.0|2019-11-01T00:00:00||row-6ywf-irym-7ugh|2019|||Single Family||Single Family|142500.0|0.6919|19040|Watertown
+930116|26 Plaskon Dr|132650.0|2019-11-01T00:00:00|[{'type': 'Point', 'coordinates': [-73.084497, 41.298549]}]|row-wcjs.mc4q.rwcd|2019|||Single Family||Single Family|272000.0|0.4877|190075|Shelton
+930117|154 South Rd|194750.0|2019-11-01T00:00:00|[{'type': 'Point', 'coordinates': [-72.784916, 41.722296]}]|row-mk48-ddj4-kqqj|2019|||Single Family||Single Family|302500.0|0.6438|19048|Farmington
+930118|15 Mohawk Tr|135520.0|2019-10-31T00:00:00|[{'type': 'Point', 'coordinates': [-72.490062, 41.601598]}]|row-5eb4-dzuz-rnai|2019|14 - Foreclosure||Single Family||Single Family|65000.0|2.0849|190029|East Hampton
+930119|5 Capilos Drive|153720.0|2019-11-07T00:00:00|[{'type': 'Point', 'coordinates': [-72.681413, 41.611906]}]|row-hjf5-898h-di64|2019|14 - Foreclosure||Single Family||Single Family|198000.0|0.7764|190018|Cromwell
+930120|11/7/2019|135170.0|2019-11-07T00:00:00||row-zuc3-s6bw.s4ap|2019|||Single Family||Single Family|224900.0|0.601|191109|Killingly
+930121|143 Railtree Hill Rd|284960.0|2019-11-07T00:00:00||row-dc5m.8t5c.hhsg|2019|||Single Family||Single Family|378500.0|0.7529|1911004|Woodbury
+930122|21 Fieldstone Lane|254040.0|2019-11-06T00:00:00|[{'type': 'Point', 'coordinates': [-73.040716, 41.424701]}]|row-brij.3f86~r2h3|2019|||Condo||Condo|373000.0|0.6811|190018|Beacon Falls
+930123|165 London Dr|120260.0|2019-11-06T00:00:00|[{'type': 'Point', 'coordinates': [-72.896982, 41.34225]}]|row-b32j-wbq2.jcqf|2019|||Single Family||Single Family|215000.0|0.5593|190091|Hamden
+930124|617 Watertown Ave|264540.0|2019-10-28T00:00:00||row-dn3d.7kid~iavb|2019||||||250000.0|1.0582|190116|Waterbury
+930125|68 Moorland Dr|18200.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-73.524068, 41.386739]}]|row-8x4d.cp5g-pgjt|2019|07 - Change In Property||Condo|New construction / b15004-12|Condo|490758.0|0.0371|190104|Danbury
+930126|32 Old Middletown Rd|180230.0|2019-10-22T00:00:00|[{'type': 'Point', 'coordinates': [-72.338903, 41.569876]}]|row-pk4r-7t75-vupk|2019|||Two Family||Two Family|244000.0|0.7386|190018|East Hampton
+930127|127 Greyrock Place # 1513|205550.0|2019-10-22T00:00:00||row-753r-kwdq-845y|2019|||Condo||Condo|298000.0|0.6898|1900117|Stamford
+930128|7 Linden Tree Rd|240590.0|2019-10-31T00:00:00||row-nfux-ymu7-9drm|2019|25 - Other||Single Family|Short sale|Single Family|280000.0|0.8593|1900053|New Milford
+930129|184 Eldridge Street|110900.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.511798, 41.767973]}]|row-xyqk~c9sh~e6b7|2019|10 - A Will||Two Family|Executor deed|Two Family|155000.0|0.7155|190050|Manchester
+930130|118 Prospect St|107700.0|2019-10-21T00:00:00||row-wwfq.852r-am73|2019|||Two Family||Two Family|165000.0|0.6527|190039|Vernon
+930131|28 Curry Lane|178300.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-72.54193, 41.749901]}]|row-hm8q~phxt-4hsg|2019|||Single Family||Single Family|288500.0|0.618|190070|Manchester
+930132|165 Ash St|83660.0|2019-10-28T00:00:00||row-7aya~w5c4.qszk|2019|||Single Family||Single Family|135000.0|0.6197|190022|Windham
+930133|415 Brookside Court|256020.0|2019-10-28T00:00:00||row-je6w~6ugj-anw9|2019|||Condo||Condo|439996.0|0.5819|19049|Newtown
+930134|33 Godman Rd|236700.0|2019-10-17T00:00:00||row-ejmu.ctik.vnnp|2019|||Single Family||Single Family|315000.0|0.7514|190014|Madison
+930135|142 Center Street|288690.0|2019-10-17T00:00:00||row-i69f-3n7x-f653|2019|||Single Family||Single Family|500000.0|0.5774|1900100|Stamford
+930136|1592 Purchase Brook Rd|260860.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-73.294456, 41.491238]}]|row-9mqy~gizy~q5f3|2019|||Single Family||Single Family|420000.0|0.6211|190039|Southbury
+930137|21 Lakeside Rd|167700.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-73.064237, 41.214774]}]|row-bqzz~kr37-uj4k|2019|||Single Family||Single Family|265000.0|0.6328|190073|Milford
+930138|175 Pleasantview Ave|96060.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-73.20721, 41.214055]}]|row-uscs-t4gj~wnvd|2019|25 - Other||Single Family|Distress sale|Single Family|110000.0|0.8733|190125|Bridgeport
+930139|34 Homestead Ave|106330.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.801798, 41.666842]}]|row-sjjs~rj2f-neck|2019|25 - Other||Two Family|Sale price is not reflective of market value for this type of property|Two Family|77000.0|1.3809|190026|New Britain
+930140|16-18 Ann St Unit 21|172940.0|2019-10-08T00:00:00||row-6mc7-x79e-turc|2019|||Condo|2-23-5-21|Condo|270000.0|0.6405|190022|Norwalk
+930141|1502 Sienna Dr|159900.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-73.416313, 41.397377]}]|row-zfie.3dte-jayi|2019|||Condo|L13120-1502|Condo|255000.0|0.6271|190027|Danbury
+930142|37 Nashville Road Ext|302610.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-73.403941, 41.356614]}]|row-44a2-tkis-fwqb|2019|||Single Family||Single Family|475000.0|0.6371|190010|Bethel
+930143|18 Lorraine Drive|159840.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-73.035886, 41.451739]}]|row-vthw~hc36-abqx|2019|||Single Family||Single Family|283000.0|0.5648|190003|Beacon Falls
+930144|149 Cole Lane|130700.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.788511, 41.613435]}]|row-7iwv~5e96-scra|2019|14 - Foreclosure||Single Family|Non-qualified sale - foreclosure|Single Family|182000.0|0.7181|190014|Berlin
+930145|47 North Road|134710.0|2019-10-16T00:00:00||row-en7z~qbwr.9tc8|2019|||Single Family||Single Family|205400.0|0.6558|190025|Waterford
+930146|85 River Rd Unit D-4|128900.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.39305, 41.37073]}]|row-dzkp.xvtk-pvjz|2019|08 - Part Interest||Condo|100 percent of interest sold in 2 transactions - see vol 330 pg 0757 serial 190007|Condo|96250.0|1.3392|190008|Essex
+930147|12 Huckleberry Lane|123200.0|2019-10-16T00:00:00||row-acjr-65kt-rt3x|2019|25 - Other||Single Family|Estate sale|Single Family|170000.0|0.7247|190040|West Hartford
+930148|27 Litchfield Rd|149460.0|2019-10-16T00:00:00||row-5965-yu56~n6v4|2019|||Single Family||Single Family|202000.0|0.7399|19016|Farmington
+930149|34 James Street|370310.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-72.655296, 41.77234]}]|row-ts3s-b9kx-yu4s|2019|25 - Other|||Motivated seller||230623.0|1.6057|19036|East Hartford
+930150|9 Cambridge Dr|237700.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-73.428424, 41.418956]}]|row-efw4.8nj5~vua6|2019|||Condo|K09097-9|Condo|375000.0|0.6339|190043|Danbury
+930151|40 Pratt Rd|190008.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.53483, 41.273981]}]|row-kgid-cdwr-pavv|2019|||Single Family||Single Family|249700.0|0.7609|190008|Clinton
+930152|41 Harding Dr|346090.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-73.532202, 41.353461]}]|row-8t49-vsmj-nps3|2019|||Single Family||Single Family|465000.0|0.7443|19208|Ridgefield
+930153|5 Songbird La|179600.0|2019-11-05T00:00:00|[{'type': 'Point', 'coordinates': [-72.892842, 41.698335]}]|row-stbx~zx5k-i55t|2019|||Condo||Condo|277000.0|0.6484|19052|Farmington
+930154|45 Fleetwood Rd|130410.0|2019-11-05T00:00:00|[{'type': 'Point', 'coordinates': [-72.908781, 41.716417]}]|row-xc72-pxth.arvm|2019|||Single Family||Single Family|229900.0|0.5672|190110|Bristol
+930155|533 Glendale Ave|57860.0|2019-11-05T00:00:00|[{'type': 'Point', 'coordinates': [-73.220654, 41.211403]}]|row-4652~ymvb~228v|2019|||Single Family||Single Family|112000.0|0.5166|190237|Bridgeport
+930156|8 Alicia Terrace|121870.0|2019-10-09T00:00:00||row-7pm4.gp6w~ygcw|2019|||Single Family||Single Family|167500.0|0.7276|190007|Windsor Locks
+930157|54 Cambridge Court|82310.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-73.039212, 41.465751]}]|row-8kgx.c3ft-hsct|2019|||Condo||Condo|164900.0|0.4992|190006|Beacon Falls
+930158|392 Elm St #P-1|60200.0|2019-10-09T00:00:00||row-xgrb-fgkr~u7bw|2019|||Condo||Condo|108200.0|0.5564|19027|West Haven
+930159|8 Hamlet Manor Ln|148470.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-72.676633, 41.483019]}]|row-gvih-wwi5-ftib|2019|||Condo||Condo|207500.0|0.7155|19004|Durham
+930160|111 Burton St|105490.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-72.899168, 41.690441]}]|row-7wbk-66ub-gk23|2019|||Single Family||Single Family|147500.0|0.7152|190027|Bristol
+930161|30 Green Hill Dr|371500.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.433618, 41.752969]}]|row-7i9e.ne6v-tczj|2019|25 - Other||Single Family|7 bdrms;not arms length|Single Family|380000.0|0.9776|190002|Bolton
+930162|47 East Granby Rd|169550.0|2019-10-08T00:00:00||row-2vm6-62pf~3ckb|2019|14 - Foreclosure||Single Family|Foreclosure by sale committee deed and remove pa 490/use assessment|Single Family|202800.0|0.836|19000008|Granby
+930163|295 Pepin Pl|139400.0|2019-10-21T00:00:00||row-jjvd-wbue-6y3c|2019|07 - Change In Property||Single Family|Pud/new construction|Single Family|337725.0|0.4128|190039|South Windsor
+930164|25 Stevens Blvd|124320.0|2019-10-21T00:00:00||row-3uq9.weyb.vbq8|2019|07 - Change In Property|New construction|Condo||Condo|284227.0|0.437397|190006|Thomaston
+930165|4A Turkey Roost Road|261430.0|2019-10-18T00:00:00||row-cjj4-ngqz~k9zb|2019|07 - Change In Property||Single Family||Single Family|636430.0|0.4108|19033|Newtown
+930166|20 Abbey Rd|4300.0|2019-10-18T00:00:00||row-jkp6~w6sy.ez3t|2019|17 - Two Towns||Single Family||Single Family|665000.0|0.0065|19013|Monroe
+930167|90 Grove St, Unit 110|149060.0|2019-10-31T00:00:00|[{'type': 'Point', 'coordinates': [-73.496393, 41.289071]}]|row-imgg-hb9d~gwjp|2019|03 - Inter Corporation|||||180000.0|0.8281|19029|Ridgefield
+930168|235 Ballouville Rd|68460.0|2019-10-31T00:00:00|[{'type': 'Point', 'coordinates': [-71.863139, 41.873036]}]|row-ycit.nqei~auai|2019|07 - Change In Property|Total renovation per mls|Two Family||Two Family|189900.0|0.3605|191044|Killingly
+930169|6 Butternut Dr|167100.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.076168, 41.535999]}]|row-wwfa.djcv~dz4m|2019|14 - Foreclosure||Single Family|Bank resale|Single Family|120000.0|1.3925|190051|Norwich
+930170|43 Parkview Dr|113820.0|2019-10-18T00:00:00||row-efs8-yktg-i7qc|2019|14 - Foreclosure||Single Family|Bank sale|Single Family|125000.0|0.9106|190035|Wethersfield
+930171|421 Middletown Ave|115040.0|2019-10-25T00:00:00||row-9cv7-sk7a-9b58|2019|25 - Other||Single Family|Estate sale|Single Family|140000.0|0.8217|190030|Wethersfield
+930172|926 Tower Ave|44030.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-72.704982, 41.800162]}]|row-wfrg-6q76.rum6|2019|||Single Family||Single Family|165000.0|0.2668|19074|Hartford
+930173|404 E Wakefield Blvd|327880.0|2019-10-18T00:00:00||row-3589-9u6r-2hub|2019|||Single Family||Single Family|412500.0|0.7949|190011|Winchester
+930174|7 Hamilton Ct|104360.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.537461, 41.993273]}]|row-u4ze-e37j-kqpx|2019|08 - Part Interest||Single Family||Single Family|118728.0|0.879|190039|Enfield
+930175|68 Sunset Ave|180020.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-73.098531, 41.193521]}]|row-5455~rihx-me6i|2019|01 - Family||Single Family||Single Family|250000.0|0.7201|190102|Milford
+930176|490 Foxon Blvd|928620.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-72.868242, 41.32034]}]|row-wf42-riec~shws|2019||||||2822910.0|0.329|190061|New Haven
+930177|80 Hungerford Ave|98800.0|2019-10-17T00:00:00||row-yetv-yrv3-sj7p|2019|||Single Family||Single Family|177000.0|0.5582|19021|Watertown
+930178|35 Starkweather Street|106400.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.516422, 41.793396]}]|row-zjbg-inrz-k53h|2019|||Single Family||Single Family|163000.0|0.6528|190046|Manchester
+930179|71 Elihu St|163660.0|2019-10-30T00:00:00|[{'type': 'Point', 'coordinates': [-72.911902, 41.361975]}]|row-w3rf-vz9z~rmbs|2019|||Single Family||Single Family|280000.0|0.5845|190074|Hamden
+930180|40 Laurel Leaf Dr|139580.0|2019-10-30T00:00:00||row-6b9d.4uij.8mev|2019|||Single Family||Single Family|222000.0|0.6287|190024|Ledyard
+930181|126 Rowley Dr|366700.0|2019-10-25T00:00:00||row-a4hi.uezm.5jzs|2019|||Single Family||Single Family|490000.0|0.7484|190029|Stonington
+930182|13 Morgan St|120500.0|2019-10-25T00:00:00||row-pwr4-yzs9-uxzz|2019|07 - Change In Property||Two Family|Seller had gutted building without permits|Two Family|80000.0|1.5063|190035|Stonington
+930183|92 Dartmouth Dr|134470.0|2019-10-25T00:00:00||row-rx5g-89x2-uta6|2019|||Single Family||Single Family|236500.0|0.5686|190054|Groton
+930184|354 South St|71540.0|2019-11-12T00:00:00|[{'type': 'Point', 'coordinates': [-72.68662, 41.733333]}]|row-srhu~7cku-9qxc|2019|||Two Family||Two Family|250000.0|0.2862|19165|Hartford
+930185|73 Pacemaker Ave|15900.0|2019-11-12T00:00:00|[{'type': 'Point', 'coordinates': [-72.062861, 41.601751]}]|row-p2kj.i74j.cu6m|2019|||Single Family|Mobile home|Single Family|22500.0|0.7067|190100|Norwich
+930186|24 Westcott Road|541530.0|2019-10-24T00:00:00||row-8qrt-8tg4~529d|2019|25 - Other||Single Family|Short sale|Single Family|585000.0|0.9257|1900124|Stamford
+930187|41 Fairfield Ave Unit E|183900.0|2019-10-24T00:00:00||row-yzwr-3j2j~48sa|2019|11 - Court Order||Condo|2-27-20-e - foreclosure by sale|Condo|258374.0|0.7118|190061|Norwalk
+930188|69 Bow La|75610.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-72.631145, 41.546922]}]|row-ypfd~f58j~m7cv|2019|||Two Family||Two Family|154000.0|0.491|190067|Middletown
+930189|2 Entrance Rd|183560.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-73.013, 41.212865]}]|row-id5a-6mn9~je7q|2019|||Single Family||Single Family|250000.0|0.7342|190116|Milford
+930190|141 Moylan Ct|64730.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-72.725612, 41.714944]}]|row-58if-yhkc~92wp|2019|||Condo||Condo|95000.0|0.6814|190030|Newington
+930191|130 Arlington St|114120.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-73.209169, 41.195772]}]|row-r9cy.dhit-pscn|2019|14 - Foreclosure||Single Family||Single Family|172101.0|0.6631|190141|Bridgeport
+930192|3 Settlers La|758990.0|2019-11-04T00:00:00|[{'type': 'Point', 'coordinates': [-73.511002, 41.302856]}]|row-6tnm~jngj-8vwd|2019|||Single Family||Single Family|933500.0|0.8131|19039|Ridgefield
+930193|146 Sunrise Hill Cir|378800.0|2019-11-04T00:00:00|[{'type': 'Point', 'coordinates': [-73.043614, 41.310149]}]|row-dvf2-adpu-ru5r|2019|07 - Change In Property||Condo|Partially completed 10-1-19|Condo|660585.0|0.5734|19023|Orange
+930194|1136 Farmington Avenue|266770.0|2019-10-24T00:00:00||row-8abi.aik6~iajb|2019|14 - Foreclosure|Purchase of a foreclosed property|Single Family||Single Family|252800.0|1.0553|190059|West Hartford
+930195|65 Stratton Forest Way|158920.0|2019-10-24T00:00:00||row-jmsp-x5nv-9pb2|2019|14 - Foreclosure||Condo|Pud|Condo|230000.0|0.691|190037|Simsbury
+930196|383 Barbour St|2060870.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-72.676471, 41.795899]}]|row-pa89-ikc9-2gay|2019||||||2700000.0|0.7633|19114|Hartford
+930197|27 Westview St|53480.0|2019-10-29T00:00:00||row-i3sv-5cr8.tpff|2019|25 - Other||Single Family|Private sale|Single Family|106300.0|0.5031|190123|Waterbury
+930198|241 Brush Hill Rd|107700.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-73.240203, 41.751182]}]|row-7t8k~4vkz-754t|2019|||Single Family||Single Family|150000.0|0.718|190014|Litchfield
+930199|910 Hope Street # 10B|133860.0|2019-10-28T00:00:00||row-t9dt-39we-vcr7|2019|||Condo||Condo|185000.0|0.7236|1900137|Stamford
+930200|19 White Rd|167100.0|2019-10-28T00:00:00||row-cq3a-vadd~zgn8|2019|||Single Family||Single Family|262500.0|0.6366|190022|Ellington
+930201|70 Farmington Ave 4G|45780.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-72.107394, 41.329409]}]|row-pnvn~xyjp.n8as|2019|14 - Foreclosure||Condo|Foreclosure by sale committee deed|Condo|36000.0|1.2717|190019|New London
+930202|437 Beechwood Ave|142660.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-73.212102, 41.178323]}]|row-zthi.zdkf~csqf|2019|14 - Foreclosure||Single Family||Single Family|205000.0|0.6959|190170|Bridgeport
+930203|10 Berkeley St|670945.0|2019-11-04T00:00:00|[{'type': 'Point', 'coordinates': [-73.416545, 41.115227]}]|row-8wwr~4t9h-tar7|2019||||1-26-19-0||1100000.0|0.61|190106|Norwalk
+930204|241 Whalehead Rd|204190.0|2019-11-04T00:00:00|[{'type': 'Point', 'coordinates': [-71.999338, 41.403953]}]|row-3h7g.xrgm-ur77|2019|||Single Family||Single Family|265000.0|0.7705|190028|Ledyard
+930205|11 Crossroads Lane|197150.0|2019-10-30T00:00:00|[{'type': 'Point', 'coordinates': [-72.881483, 41.772676]}]|row-56kd~775k-prrn|2019|||Condo||Condo|230000.0|0.8572|190043|Avon
+930206|23 Hine Rd|197540.0|2019-10-30T00:00:00|[{'type': 'Point', 'coordinates': [-73.449568, 41.637151]}]|row-5peg-x2kj-5me9|2019|10 - A Will||Single Family|Will|Single Family|255000.0|0.7747|1900050|New Milford
+930207|34 Cornwall Drive|126700.0|2019-11-01T00:00:00|[{'type': 'Point', 'coordinates': [-72.516773, 41.815961]}]|row-ummf-qk8m-vsrk|2019|||Single Family||Single Family|212500.0|0.5962|190092|Manchester
+930208|362 Woodland Street|111200.0|2019-11-01T00:00:00|[{'type': 'Point', 'coordinates': [-72.54145, 41.788181]}]|row-wxz3-c7wc.qgkv|2019|||Single Family||Single Family|165000.0|0.6739|190090|Manchester
+930209|309 Terrace Ave #03|69650.0|2019-10-28T00:00:00||row-d9wh.bisx-xjk5|2019|||Condo||Condo|124000.0|0.5617|19063|West Haven
+930210|108 Gillies Ln Unit 6/04|213970.0|2019-10-28T00:00:00||row-8exs-a46q-mhs5|2019|||Condo|5-64-200-6/04|Condo|326000.0|0.6563|190070|Norwalk
+930211|183 Thompson Road|107700.0|2019-10-22T00:00:00|[{'type': 'Point', 'coordinates': [-72.552297, 41.771853]}]|row-nviu.nq7b-t4fs|2019|16 - Charitable Group||Single Family|Sale to church|Single Family|173000.0|0.6225|190053|Manchester
+930212|52 Pleasant St|114200.0|2019-10-22T00:00:00|[{'type': 'Point', 'coordinates': [-72.326252, 41.574856]}]|row-wmtd-vu6g~unvc|2019|||Single Family||Single Family|162900.0|0.701|19024|Colchester
+930213|2 Pioneer Dr|232010.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.485037, 41.912011]}]|row-v6er~36vk-crzd|2019|||Single Family||Single Family|340000.0|0.6824|190016|Ellington
+930214|31 Pratt Rd|155500.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.534158, 41.274596]}]|row-g9ci-f8mp.vm6s|2019|||Single Family||Single Family|270000.0|0.5759|190019|Clinton
+930215|15 Ninety Rod Rd|137000.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-72.522097, 41.29788]}]|row-uwqf-wuhz~fne8|2019|25 - Other|No mls - purchased to flip - see resale #190310|Single Family||Single Family|90000.0|1.5222|190024|Clinton
+930216|3 Oakwood Ave Unit A18|186990.0|2019-10-28T00:00:00||row-45be~83sy-s4c2|2019|||Condo|5-40-25-a18|Condo|312500.0|0.5984|190075|Norwalk
+930217|678 Savin Ave #J2|56280.0|2019-10-17T00:00:00||row-dvjq-3szz-22nb|2019|14 - Foreclosure||Condo||Condo|68000.0|0.8276|19043|West Haven
+930218|71 Robindale Drive|191800.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.784308, 41.628305]}]|row-ddit.sset~6sj3|2019|||Single Family|Qualified sale|Single Family|310000.0|0.6187|190015|Berlin
+930219|28 Crawford Ln|191940.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.06712, 41.370783]}]|row-8mve-pj2z.qei2|2019|||Condo||Condo|287000.0|0.6688|190042|Groton
+930220|1 Hidden Brook Rd|315350.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.940974, 41.41743]}]|row-h7f8~4z6s.mhuq|2019|||Single Family||Single Family|340000.0|0.9275|190053|Hamden
+930221|27 Elizabeth Lane|140910.0|2019-10-21T00:00:00||row-db2x.eih9-hge9|2019|||Single Family||Single Family|207000.0|0.6807|190589|Griswold
+930222|39 Horton Hill Road Unit 3F|63710.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-73.009117, 41.469012]}]|row-q9t5.icbn-5kcw|2019|07 - Change In Property||Condo|Improved|Condo|114000.0|0.5589|1910016|Naugatuck
+930223|3 Summit Drive|168840.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.648156, 41.609843]}]|row-ax6f-3w8n-evke|2019|||Single Family|Desirable location|Single Family|276000.0|0.6117|190005|Cromwell
+930224|1Ap Partridge Run|195400.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-72.556793, 41.995785]}]|row-t8th~4qkb~9jfa|2019|||Condo||Condo|295000.0|0.6624|190014|Enfield
+930225|13 Wc Brookside Commons|118440.0|2019-10-07T00:00:00||row-yqyx~y46h.6a3v|2019|||Condo||Condo|161800.0|0.732|19003|Derby
+930226|104 Edge Rd|126400.0|2019-10-16T00:00:00||row-nybs-vkzf-5xqb|2019|14 - Foreclosure||Single Family||Single Family|212579.0|0.5946|19016|Watertown
+930227|245 Ashley Falls Rd|104550.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-73.326301, 42.035281]}]|row-723x-xmr9-r9hp|2019|||Single Family||Single Family|145000.0|0.721|190003|North Canaan
+930228|1 Beagle Trail|305730.0|2019-10-16T00:00:00||row-yp99~w5dw-ggxy|2019|||Single Family||Single Family|470000.0|0.6505|19027|Newtown
+930229|58 Spyglass Cir|125370.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.052223, 41.365339]}]|row-i3sk~u5yk-gmem|2019|||Condo||Condo|215000.0|0.5831|190035|Groton
+930230|108 Forsyth Rd|187000.0|2019-10-16T00:00:00||row-siwq-9npd-byfn|2019|||Single Family||Single Family|282000.0|0.6631|19020|Montville
+930231|20 Plains Rd|172080.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-72.49624, 41.469289]}]|row-ig95-cdv3-98nd|2019|16 - Charitable Group|||An abandoned church for years that the neighbor bought||125000.0|1.3766|19010|East Haddam
+930232|26 & 26R Scotland Rd|133460.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-72.155549, 41.699915]}]|row-y7kb-gm9a-8j27|2019|01 - Family||Single Family||Single Family|80000.0|1.6683|190011|Windham
+930233|40 Chamberlain Rd|181060.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.662157, 41.702288]}]|row-yssi-eh7m-jf5h|2019|||Single Family||Single Family|245000.0|0.739|190006|Wethersfield
+930234|323 Cooke St|45880.0|2019-10-10T00:00:00||row-rh5j-3795-sk8j|2019|||Three Family||Three Family|110000.0|0.4171|190050|Waterbury
+930235|623 Center Meadow Lane|189900.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-73.529078, 41.388143]}]|row-uzii.p359-awie|2019|||Condo|B15002-623|Condo|316500.0|0.6|190035|Danbury
+930236|40 Brittany Lane|146530.0|2019-11-05T00:00:00|[{'type': 'Point', 'coordinates': [-73.03618, 41.509651]}]|row-zss9.ajxz.xaxn|2019|26 - Rehabilitation Deferred||Single Family|Deffered maintenance|Single Family|140000.0|1.0466|1910058|Naugatuck
+930237|53 Mervyn La|181100.0|2019-11-05T00:00:00|[{'type': 'Point', 'coordinates': [-72.142162, 41.676594]}]|row-6fne-tqg6-5wpu|2019|||Single Family||Single Family|250000.0|0.7244|190032|Windham
+930238|26 Birge Avenue|109130.0|2019-10-09T00:00:00||row-n8u8-ibdt-2mqw|2019|||Single Family||Single Family|164900.0|0.6618|190009|Windsor Locks
+930239|36 Oak Street|115220.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-71.982445, 41.600011]}]|row-gyak-hdg4-pnx5|2019|||Single Family||Single Family|177000.0|0.651|190574|Griswold
+930240|440 Wheelers Farms Rd|14715580.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-73.074642, 41.245148]}]|row-46tk-ayeh-62ia|2019|14 - Foreclosure|||||4500000.0|3.2701|190053|Milford
+930241|26 Coolidge St|9810.0|2019-10-09T00:00:00||row-yseq-vngv.tunx|2019|01 - Family|||Other||15000.0|0.654|190022|Southington
+930242|127 Spring St|82180.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-72.934232, 41.294102]}]|row-63dh.fjk4-88rn|2019|14 - Foreclosure||Two Family||Two Family|131500.0|0.6249|190019|New Haven
+930243|495 No Society Rd|326800.0|2019-10-08T00:00:00||row-wsya~c6yg-4ngs|2019|01 - Family||Single Family|Family transfer of multi parcels, use assessment|Single Family|375000.0|0.8715|19002|Canterbury
+930244|10 Hart Ct|347000.0|2019-10-08T00:00:00||row-zf7n.56ea.5vpa|2019|||Single Family||Single Family|595000.0|0.5832|190247|Oxford
+930245|59 Eastgate Cmn|19740.0|2019-10-08T00:00:00||row-xkb4-ge2p-y5xv|2019|||Condo||Condo|30449.0|0.6483|190022|Meriden
+930246|32 Harrison St|139500.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-73.434952, 41.386941]}]|row-52s5.h9pe~tuzf|2019|||Single Family|J15358|Single Family|267000.0|0.5225|190076|Danbury
+930247|561 Oakwood Dr|316600.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.56663, 41.709248]}]|row-r4wu-s845-hwtz|2019|||Single Family||Single Family|510000.0|0.6208|190030|Glastonbury
+930248|6 Cliff St|88410.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.100475, 41.341268]}]|row-a4qr-vxe6-74sr|2019|||Single Family||Single Family|163500.0|0.5407|190012|New London
+930249|23 Charles St|124810.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.90169, 41.685849]}]|row-hp87~ebvy-q334|2019|||Single Family||Single Family|160000.0|0.7801|190053|Bristol
+930250|263,259 Haley Rd & 130,132 Lam|207480.0|2019-10-19T00:00:00|[{'type': 'Point', 'coordinates': [-71.997969, 41.406223]}]|row-cmyw-q2id-m7hy|2019|01 - Family|||Multiple lots/family||132000.0|1.5718|190013|Ledyard
+930251|143 Edgewood St|53970.0|2019-10-31T00:00:00|[{'type': 'Point', 'coordinates': [-72.690702, 41.78181]}]|row-e2et-75bv-iq78|2019|25 - Other||Three Family|"Sold in ""as is"" condition per mls"|Three Family|110000.0|0.4906|19119|Hartford
+930252|6 Middlesex Ave|232670.0|2019-10-31T00:00:00|[{'type': 'Point', 'coordinates': [-72.439404, 41.397153]}]|row-zz9h~6k4k-irxb|2019|||Single Family||Single Family|220000.0|1.0576|190007|Chester
+930253|72 Ann Rd|148700.0|2019-10-18T00:00:00||row-uayf~d2fk.937d|2019|||Single Family||Single Family|245000.0|0.6069|190034|South Windsor
+930254|77 Mountford St #00A3|21280.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.686843, 41.741979]}]|row-bfdk.fety-2bkw|2019|||Condo||Condo|70000.0|0.304|19050|Hartford
+930255|355 Tryon St|338200.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.618542, 41.659853]}]|row-dj5s~5fef-szjj|2019|||Single Family||Single Family|525000.0|0.6442|190026|Glastonbury
+930256|100 Richards Ave Unit 408|219950.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-73.451419, 41.095724]}]|row-7c83-7jpg~f3ru|2019|||Condo|5-69-66-408|Condo|283500.0|0.7758|190069|Norwalk
+930257|93-95 Garvan St|129820.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-72.649443, 41.767406]}]|row-xz2n~9a78~qdq2|2019|||Two Family||Two Family|257000.0|0.5051|19053|East Hartford
+930258|245 Unquowa Road #85|179550.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-73.258514, 41.144022]}]|row-b2sc.c58k~rm6f|2019|25 - Other||Condo|Estate sale|Condo|253000.0|0.7097|190064|Fairfield
+930259|42 Westford D|78300.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.195602, 41.942556]}]|row-macx~vq2x-dbyk|2019|||Single Family|Lake chafee area, 2 br|Single Family|143000.0|0.5476|1903|Ashford
+930260|5 Jensen Farm Rd|339900.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-73.138417, 41.386684]}]|row-a3mf-iugk-pdvg|2019|||Single Family||Single Family|550000.0|0.618|190252|Oxford
+930261|106 Woodbridge Street|104300.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-72.519618, 41.794475]}]|row-m75g-fmv5.btis|2019||No mls|Single Family||Single Family|90000.0|1.1589|190060|Manchester
+930262|133 Bolivia St|232190.0|2019-10-23T00:00:00||row-eq3p~y5kb~3spm|2019|||Two Family||Two Family|285000.0|0.8147|190018|Windham
+930263|233 Mountain Rd|166970.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-72.451579, 41.894776]}]|row-mbj7-f668.4d8v|2019|||Single Family||Single Family|226000.0|0.7388|190019|Ellington
+930264|285 Brooks Rd|201500.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.953187, 41.411611]}]|row-upmh-5nwd-ntd2|2019|25 - Other||Single Family|2nd deed or same property; possible relocation|Single Family|339000.0|0.5944|190006|Bethany
+930265|1323 Slater Rd|92890.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.798475, 41.700839]}]|row-vbky.wvsw-ujjz|2019|||Single Family||Single Family|165000.0|0.563|190039|New Britain
+930266|1092 Farmington Ave Unit C|294280.0|2019-10-30T00:00:00|[{'type': 'Point', 'coordinates': [-72.753607, 41.758494]}]|row-iih8~5x6e.gen8|2019|||Condo||Condo|410000.0|0.7178|190076|West Hartford
+930267|9 Governor St|87290.0|2019-10-30T00:00:00|[{'type': 'Point', 'coordinates': [-72.789697, 41.688248]}]|row-kckn-zeiq-6ckw|2019|14 - Foreclosure|Foreclosure sale per town site|Single Family||Single Family|66500.0|1.312632|190089|New Britain
+930268|24 White St|83860.0|2019-10-25T00:00:00||row-gzjf.iwpy-2gh8|2019|18 - In Lieu Of Foreclosure||Single Family|Sale of foreclosure|Single Family|30000.0|2.7953|190018|Winchester
+930269|145 Mill Hill Rd|145400.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-72.356511, 41.571688]}]|row-jtg4-p5si-mk4a|2019|||Single Family||Single Family|247000.0|0.5887|19031|Colchester
+930270|13 Maple Pl|113030.0|2019-10-24T00:00:00||row-cmrq.q3hz.nvy9|2019|||Two Family||Two Family|191900.0|0.589|190060|Middletown
+930271|450 Denslow Street|125580.0|2019-10-24T00:00:00||row-z2c3~ekjy~cgsd|2019|25 - Other||Single Family|Sold as is|Single Family|115000.0|1.092|190019|Windsor Locks
+930272|Pocono Point Rd|15100.0|2019-10-29T00:00:00||row-irnx.xe8k~q5jh|2019|||Single Family|Mobile home / lot 168a twin oaks lane / k05120-198|Single Family|21000.0|0.719|190109|Danbury
+930273|4 Woodridge Circle|251370.0|2019-10-29T00:00:00||row-act4-ytph-3g58|2019|||Single Family||Single Family|421250.0|0.5967|190047|Trumbull
+930274|208 Magnolia St|53620.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-72.686528, 41.783083]}]|row-22ah~qpc3~ywc8|2019|09 - Tax|||Tax collector's deed||41998.0|1.2767|19098|Hartford
+930275|138 Wells Rd|100360.0|2019-10-23T00:00:00||row-ppjp.qfdz-jhvb|2019|07 - Change In Property||Single Family|Renov's in process|Single Family|215000.0|0.4668|190013|East Windsor
+930276|72 Upper Church Hill|831370.0|2019-10-23T00:00:00||row-vpr7-t8e8-5zer|2019|||Single Family||Single Family|863000.0|0.9633|190006|Washington
+930277|92 West Main St|205230.0|2019-11-04T00:00:00||row-uw97-bkad~ii5a|2019||||||390000.0|0.5262|190061|Vernon
+930278|35-A Cliffside Drive|83200.0|2019-10-24T00:00:00|[{'type': 'Point', 'coordinates': [-72.487584, 41.795152]}]|row-it95~qssk-kewt|2019|||Condo||Condo|139180.0|0.5978|190064|Manchester
+930279|2 Gingham Ct|18200.0|2019-10-24T00:00:00||row-2bzn~5sze-6rc8|2019|07 - Change In Property||Condo|New construction / b15004-5|Condo|401777.0|0.0453|190093|Danbury
+930280|1100 Long Hill Rd|158110.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-72.915865, 41.474896]}]|row-hu36~kpwi-a34c|2019|||Single Family||Single Family|230000.0|0.6874|1900043|Cheshire
+930281|12 Echo Valley Road|289240.0|2019-10-29T00:00:00||row-wup3~pph9-sfq7|2019|||Single Family||Single Family|350000.0|0.8264|19050|Newtown
+930282|77 Goddard Ave|58730.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-73.17778, 41.198441]}]|row-i43n.5w2n.m5bt|2019|25 - Other||Single Family|Distress sale|Single Family|80500.0|0.7296|190158|Bridgeport
+930283|143 Stilson Hill Rd|228480.0|2019-10-28T00:00:00||row-dtpg-u6kp.z5bt|2019|||Single Family||Single Family|375000.0|0.6093|1900045|New Milford
+930284|7 River Park Dr|454930.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-72.622715, 41.613138]}]|row-fjb8-vz48-xhue|2019|||Single Family|Planned community hoa fees|Single Family|597000.0|0.762|190015|Cromwell
+930285|371 Chesterfield Rd #5|12100.0|2019-10-29T00:00:00||row-5hqc-jpkf~wity|2019|25 - Other||Single Family|Sales ratio|Single Family|2000.0|6.05|19034|Montville
+930286|22 Anderson Rd|250500.0|2019-10-30T00:00:00|[{'type': 'Point', 'coordinates': [-72.783055, 41.413123]}]|row-vr49~tjhq-56nr|2019|01 - Family||Single Family||Single Family|224000.0|1.1183|190062|Wallingford
+930287|1407 Briar Woods La|177700.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-73.512861, 41.382842]}]|row-9tad-2jqu-zg64|2019|||Condo|C16028-1407|Condo|292000.0|0.6086|190098|Danbury
+930288|92 Tracy Dr|146050.0|2019-10-28T00:00:00||row-i6ee.df5v.ttia|2019|||Single Family||Single Family|242000.0|0.6035|190050|Vernon
+930289|560 So Frontage Rd|205450.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-71.863482, 41.788827]}]|row-hjzk-z96z.hvsr|2019|||Single Family||Single Family|299900.0|0.6851|191035|Killingly
+930290|9 Linden Pl|83820.0|2019-10-22T00:00:00||row-6deb.cnb3~fnd8|2019|||Two Family||Two Family|133500.0|0.6279|190041|Vernon
+930291|250 Porter Street|128100.0|2019-10-22T00:00:00|[{'type': 'Point', 'coordinates': [-72.501454, 41.77494]}]|row-qz4r-5pvy~brww|2019|||Single Family||Single Family|225500.0|0.5681|190055|Manchester
+930292|150 West Rocks Rd|288030.0|2019-10-22T00:00:00|[{'type': 'Point', 'coordinates': [-73.417265, 41.139731]}]|row-xkri-vrba.59rc|2019|||Single Family|5-23-112-0|Single Family|470000.0|0.6128|190050|Norwalk
+930293|1167 No Colony Rd|148750.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.781603, 41.565107]}]|row-ynrz.whmv~n4yw|2019|||Single Family||Single Family|260000.0|0.5721|190106|Meriden
+930294|4 Sodom Rd|77940.0|2019-10-21T00:00:00||row-47pe-w6ag.5twp|2019|14 - Foreclosure||Single Family||Single Family|45000.0|1.732|19001|Franklin
+930295|152 Farms Village Road|135360.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.838087, 41.868639]}]|row-28bj.rn69-a3z2|2019|||Single Family||Single Family|222900.0|0.6073|190030|Simsbury
+930296|449 Cedar St|200310.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-72.744198, 41.695498]}]|row-qhsu~9mbv~birf|2019|||Single Family||Single Family|240000.0|0.8346|190033|Newington
+930297|77 Flyers Dr|88100.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-72.07357, 41.564142]}]|row-g477.huez-2nea|2019|||Single Family||Single Family|135000.0|0.6526|190072|Norwich
+930298|198 Preston St|131950.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-72.681024, 41.738797]}]|row-mevf-mzur-f2g5|2019||||||275000.0|0.4798|19078|Hartford
+930299|15 Montauk Rd|17910.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.635813, 41.734382]}]|row-hu9j-q8k8-2b5q|2019|14 - Foreclosure||Single Family|Mobile home|Single Family|5000.0|3.582|19041|East Hartford
+930300|26 Valley View Rd|289930.0|2019-10-17T00:00:00||row-satk-hzgs~et29|2019|||Single Family|5-22b-124-0|Single Family|340000.0|0.8527|190041|Norwalk
+930301|North Wawecus Hill Rd|59700.0|2019-10-17T00:00:00||row-pyxy.6zaq.capu|2019|25 - Other|||Sold w/ 158 n wawecus hill||266000.0|0.2244|190046|Norwich
+930302|265 Mansfield Ave|1429190.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-73.479548, 41.096305]}]|row-di6w-ffxp-x8we|2019|||Single Family||Single Family|1700000.0|0.8407|19010|Darien
+930303|647 Elm St|184500.0|2019-10-21T00:00:00||row-mzpv-m3kx-r4et|2019|||Single Family||Single Family|330000.0|0.5591|19016|Monroe
+930304|329 Greene St # 4|300510.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.918606, 41.305742]}]|row-rkua-ukkb-qimc|2019|||Condo||Condo|445000.0|0.6753|190055|New Haven
+930305|40 Hamilton Dr|397700.0|2019-10-08T00:00:00||row-rs49-u57i.jd3v|2019|||Single Family||Single Family|612500.0|0.6493|190009|Madison
+930306|14 Mill Landing|142520.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.369289, 41.657531]}]|row-prqw-8gmm.yscw|2019|||Condo||Condo|180000.0|0.7918|190007|Hebron
+930307|4 Wilson Ave|166500.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.829495, 41.440004]}]|row-nyhu.n6yf.7er8|2019|||Single Family||Single Family|199000.0|0.8367|190019|Wallingford
+930308|310 Putnam Pike|123060.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-71.882529, 41.862025]}]|row-a7vd-zwfp.peyj|2019|||Single Family||Single Family|180000.0|0.6837|191012|Killingly
+930309|34 Flint Ct|55510.0|2019-10-07T00:00:00||row-de2f-i89u~m4mx|2019|07 - Change In Property||Single Family|Complete renovation|Single Family|158000.0|0.3513|190009|Groton
+930310|20 Morgan Av|132700.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-73.43069, 41.407917]}]|row-zfxx-mexg.uyny|2019|||Single Family|K11043|Single Family|190000.0|0.6984|190020|Danbury
+930311|55 Corrina Lane|316500.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.228117, 41.44684]}]|row-a9ic~7ngg~irrp|2019|||Single Family||Single Family|328000.0|0.9649|190492|Salem
+930312|12 Arrow St|103820.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.56387, 41.97791]}]|row-33b3-2jg6.g556|2019|25 - Other||Single Family|Not on open market|Single Family|175000.0|0.5933|190031|Enfield
+930313|151 Troy Rd|258200.0|2019-10-16T00:00:00||row-r7ka-g5s3.2gwm|2019|||Single Family||Single Family|335000.0|0.7707|190027|South Windsor
+930314|45 Welles Rd|109370.0|2019-10-16T00:00:00||row-raye-kg4p~xs43|2019|||Single Family||Single Family|185000.0|0.5912|190029|Vernon
+930315|73 Mill St|95530.0|2019-10-16T00:00:00||row-7x3b-3yem~wgz8|2019|||Two Family||Two Family|164000.0|0.5825|190040|Middletown
+930316|23 Woodland Drive|226700.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-72.911437, 41.837875]}]|row-sp8d.bwhg-tty2|2019|||Single Family||Single Family|345000.0|0.6571|190010|Canton
+930317|273 Thornton St|181860.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-72.917306, 41.364745]}]|row-rp45~8dnq~psk7|2019|25 - Other||Single Family|Low sales price; executrix's deed|Single Family|170000.0|1.0698|190041|Hamden
+930318|26 Hartford Rd|151200.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-71.951618, 41.787327]}]|row-84dq-pbxf-6hc5|2019|14 - Foreclosure||Single Family||Single Family|100000.0|1.512|190004|Brooklyn
+930319|74 Heritage Dr|116470.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-73.08641, 41.573409]}]|row-gj6a-inqv-rrzn|2019|||Single Family||Single Family|198900.0|0.5856|190048|Waterbury
+930320|11 Tamarack Dr|221900.0|2019-11-05T00:00:00||row-f4tq-r3xd~twns|2019|||Single Family||Single Family|304900.0|0.7278|1900066|New Milford
+930321|246 Mount Vernon Rd|191630.0|2019-10-09T00:00:00||row-vgfb~6p5z-vxx3|2019|||Single Family||Single Family|225000.0|0.8517|190027|Southington
+930322|10-C Ambassador Drive|66700.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-72.4981, 41.795156]}]|row-bj6d.gc4a.nruu|2019|||Condo||Condo|132500.0|0.5034|190028|Manchester
+930323|10-C Ambassador Drive|66700.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-72.4981, 41.795156]}]|row-bj6d.gc4a.nruu|2019|||Condo||Condo|132500.0|0.5034|190028|Manchester
+930324|9 Tanglewood Lane|223230.0|2019-10-09T00:00:00||row-band~j6ah-s76b|2019|||Single Family||Single Family|350000.0|0.6378|19018|Newtown
+930325|258 Elm St|6132140.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-73.499158, 41.145734]}]|row-6iiy-3r24~s8vf|2019||||||6925000.0|0.8855|190013|New Canaan
+930326|35 East New St|90860.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.912071, 41.676082]}]|row-zxbs~7izt-wjqb|2019|||Single Family||Single Family|155000.0|0.5862|190026|Bristol
+930327|5 Quail Hollow Close|149760.0|2019-10-08T00:00:00||row-5n45~w2n7.8pyp|2019|14 - Foreclosure||Condo||Condo|200100.0|0.7484|190018|Vernon
+930328|4 Partridge Court|385350.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.242191, 41.369515]}]|row-e9pr~ugz4~hqej|2019|||Single Family||Single Family|562473.0|0.6851|190011|East Lyme
+930329|236 Adams Hill Way|87110.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.61001, 41.916014]}]|row-b2wj~bnip-zaix|2019|||Condo||Condo|133000.0|0.655|190010|East Windsor
+930330|54 Mulberry Street|230930.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-73.03236, 41.488259]}]|row-m7wd.wnnf.4pdt|2019|||Single Family|Arms length sale|Single Family|250000.0|0.9237|1910025|Naugatuck
+930331|9 Colonial Dr|242300.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.54294, 41.306329]}]|row-twzq-exgn-7t2r|2019|||Single Family||Single Family|400000.0|0.6058|190016|Clinton
+930332|30-8 Pompey Rd|38700.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.174463, 41.856302]}]|row-e82c~ujmz-45ae|2019|||Condo|2 br condo, ashford park|Condo|57000.0|0.6789|1904|Ashford
+930333|Bailey Rd|120.0|2019-10-21T00:00:00||row-weaz-85s6.revg|2019|28 - Use Assessment|||8 parcels one purchase price + pa 490||2650000.0|4.5e-05|190019|Sterling
+930334|663 Congdon St West|270770.0|2019-10-31T00:00:00||row-5pzv.epm5~kmse|2019|||Single Family||Single Family|295000.0|0.9179|190077|Middletown
+930335|134 Steephill Road|324110.0|2019-10-31T00:00:00||row-dibv~udpv-gbg3|2019|||Single Family||Single Family|440000.0|0.7366|190013|Weston
+930336|2 Lake Williams Island|111450.0|2019-10-31T00:00:00|[{'type': 'Point', 'coordinates': [-72.295054, 41.641414]}]|row-6vcs.kd2k-b5hz|2019|08 - Part Interest||Single Family||Single Family|44444.0|2.5077|19010|Lebanon
+930337|105 Elmwood Dr|138670.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.782794, 41.509721]}]|row-qy64.2bp3~hn9g|2019|||Single Family||Single Family|184000.0|0.7536|190108|Meriden
+930338|6 Dean Ave|71280.0|2019-10-18T00:00:00||row-4qfv-vq79.8cip|2019|25 - Other||Single Family|Loc & land size|Single Family|133000.0|0.5359|190009|East Windsor
+930339|86 Fairlane Dr|289940.0|2019-10-18T00:00:00||row-ekt9.vhi6~dn7h|2019|||Single Family||Single Family|379000.0|0.765|190038|Shelton
+930340|7 Pond Ridge Rd|605830.0|2019-10-25T00:00:00||row-9ynf.8z67.7jjc|2019|||Single Family|6-13b-36-0|Single Family|835000.0|0.7255|190063|Norwalk
+930341|43 Surrey Ln|135080.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-72.864431, 41.597353]}]|row-bhrk-3ii6.ecxy|2019|||Single Family||Single Family|229000.0|0.5899|190059|Southington
+930342|6 Davis Rd|5990.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-73.077451, 41.769135]}]|row-qsj3-7sjm.ifis|2019|25 - Other|Assessed as non buildable - sold as building lot per mls|Single Family||Single Family|30000.0|0.1997|190006|Harwinton
+930343|7 Odonnell Ct|129340.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.87122, 41.256875]}]|row-aaht.3zkm.h9ci|2019|||Single Family||Single Family|175000.0|0.7391|1900024|East Haven
+930344|621 Quinnipiac Av|147280.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.887096, 41.306995]}]|row-f4wd.kihp-cjia|2019||Good sale per mls|Four Family||Four Family|415000.0|0.354892|190048|New Haven
+930345|22 Quail Hollow Close|157710.0|2019-10-18T00:00:00||row-5r85-nybi-an73|2019|||Condo||Condo|240000.0|0.6571|190037|Vernon
+930346|14 Arrowwood Ct|21000.0|2019-10-23T00:00:00||row-qdkd~5n4b~kwi7|2019|07 - Change In Property||Condo|Condo - incomplete|Condo|632398.0|0.0332|190009|Middlebury
+930347|124 Jones Hollow Rd|121240.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-72.461503, 41.647464]}]|row-trz2.5kpg~2rgr|2019|||Single Family||Single Family|165000.0|0.7348|19004|Marlborough
+930348|L 23-R Dunn Avenue|49190.0|2019-10-23T00:00:00||row-se6z-hwpi-tbqn|2019|09 - Tax|||Tax collectors deed||24500.0|2.0078|1910029|Naugatuck
+930349|12 Birchwood Ct|114250.0|2019-10-17T00:00:00||row-z3vu.fhrh-b5bg|2019|25 - Other||Single Family|Hud housing, land lease, must chfa,fha income qualify|Single Family|140416.0|0.8137|1900014|Wolcott
+930350|76 Old County Road|142800.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.743315, 41.906756]}]|row-4m2v.bh8s-fcet|2019|||Single Family||Single Family|228000.0|0.6263|190003|East Granby
+930351|532 Matson Hill Rd|197200.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.575097, 41.650876]}]|row-qsw9.nc99.5abb|2019|25 - Other||Single Family|As-is sale|Single Family|235000.0|0.8391|190024|Glastonbury
+930352|483 Ferry St|110670.0|2019-10-30T00:00:00|[{'type': 'Point', 'coordinates': [-72.89644, 41.312983]}]|row-z72y-fjcb-brtb|2019|||Three Family||Three Family|290000.0|0.3816|190081|New Haven
+930353|41 Auldwood Road|489910.0|2019-10-30T00:00:00||row-wb56~i334-q459|2019|||Single Family||Single Family|715000.0|0.6852|1900157|Stamford
+930354|10 Wintergreen Lane|180790.0|2019-10-25T00:00:00||row-9qyb.2xdn~yh6j|2019|07 - Change In Property||Single Family|Improved|Single Family|293000.0|0.617|1910032|Naugatuck
+930355|2 Grandview Terr|252910.0|2019-10-25T00:00:00||row-iefk-vf3s.iq5a|2019|||Single Family||Single Family|423500.0|0.5972|19024|North Haven
+930356|23 Knox Street|125900.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-72.527458, 41.774554]}]|row-aqdw~dxgd-cmud|2019|||Two Family||Two Family|225500.0|0.5583|190069|Manchester
+930357|239 Ballfall Rd|164320.0|2019-10-24T00:00:00||row-sccj.6jii-svuc|2019|||Single Family||Single Family|300000.0|0.5477|190027|Middletown
+930358|11 North Ave|197400.0|2019-10-24T00:00:00|[{'type': 'Point', 'coordinates': [-72.990979, 41.347672]}]|row-dcgr-ev4k-ucr2|2019|||Single Family||Single Family|285000.0|0.6926|190009|Woodbridge
+930359|141 Derby Ave|87150.0|2019-10-24T00:00:00||row-cgyi.dquw-urzd|2019|10 - A Will||Single Family||Single Family|114000.0|0.7645|190024|Seymour
+930360|106 Woodbridge Street|104300.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-72.519618, 41.794475]}]|row-m75g-fmv5.btis|2019||No mls|Single Family||Single Family|90000.0|1.1589|190060|Manchester
+930361|121 N Humiston Rd|231190.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-72.981918, 41.450434]}]|row-ngcv-yhs4-px42|2019|||Single Family||Single Family|409900.0|0.564|190007|Bethany
+930362|15 Toll Gate Rd|111510.0|2019-10-24T00:00:00||row-9fez-wbij-nsyr|2019|||Single Family||Single Family|279000.0|0.3997|190052|Groton
+930363|780 Old Post Road|54040.0|2019-10-24T00:00:00|[{'type': 'Point', 'coordinates': [-73.251915, 41.141266]}]|row-aii5.fm7k~ix4q|2019|08 - Part Interest|||||100000.0|0.5404|190062|Fairfield
+930364|44-46 Beech St|79030.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-72.947514, 41.688025]}]|row-agap.yupu-cw8e|2019|||Two Family||Two Family|138500.0|0.5706|190084|Bristol
+930365|94 Heatherwood Dr|127600.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-73.38987, 41.429369]}]|row-7ufv~j4ht-aphi|2019|14 - Foreclosure||Condo|Foreclosure|Condo|222000.0|0.5748|19000037|Brookfield
+930366|63 Maple Street|100090.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-72.620744, 41.732886]}]|row-kvsg.t2p4~7emz|2019|25 - Other||Single Family|Motivated seller|Single Family|45000.0|2.2242|19059|East Hartford
+930367|33 Warner Rd|387180.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-72.378167, 41.469202]}]|row-w3kz-i4g5.fhm4|2019|14 - Foreclosure||Single Family||Single Family|337000.0|1.1489|19019|East Haddam
+930368|3529 Old Town Rd|111830.0|2019-10-29T00:00:00|[{'type': 'Point', 'coordinates': [-73.234904, 41.225721]}]|row-239m-yzp6.aua9|2019|||Single Family||Single Family|209000.0|0.5351|190168|Bridgeport
+930369|314 Willow Springs|116410.0|2019-10-29T00:00:00||row-vxgi-tcg9-94ib|2019|||Condo||Condo|199900.0|0.5823|1900049|New Milford
+930370|9 Cooper Ave|154300.0|2019-10-29T00:00:00||row-pr5g-ii72.8rr9|2019|||Single Family||Single Family|248000.0|0.6222|190056|Wallingford
+930371|0 Cayuga Dr|1400.0|2019-10-28T00:00:00||row-7pk5-w4dr~dpm9|2019|25 - Other|Includes #19033||Sale price includes 129 cayuga dr||157000.0|0.0089|19034|Watertown
+930372|5 Plant Ct|2163020.0|2019-10-28T00:00:00||row-jzhy-xmg9.2eep|2019|||Single Family|6-36-13-0|Single Family|3375000.0|0.6409|190071|Norwalk
+930373|185 Brewer St|99310.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-72.622632, 41.744313]}]|row-7kwq-v7c4.f4rg|2019|||Single Family||Single Family|144900.0|0.6854|19057|East Hartford
+930374|146 Wykeham Rd|754690.0|2019-10-22T00:00:00||row-z6dc~7jpe~x695|2019|||Single Family||Single Family|1400000.0|0.5391|190005|Washington
+930375|30 Marlboro St|95130.0|2019-10-22T00:00:00|[{'type': 'Point', 'coordinates': [-72.925973, 41.336104]}]|row-rqbs~src5~kn32|2019|14 - Foreclosure||Single Family|Foreclosure by sale|Single Family|153316.0|0.6205|190056|Hamden
+930376|149 Green Pond Rd|272500.0|2019-10-22T00:00:00|[{'type': 'Point', 'coordinates': [-73.462911, 41.552904]}]|row-stdc-6t9d-afdk|2019|07 - Change In Property||Single Family||Single Family|650000.0|0.4192|190006|Sherman
+930377|178 Orchard Ave|139150.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.744565, 41.654855]}]|row-jzrb-8it4.734e|2019|||Single Family||Single Family|209000.0|0.6658|190028|Newington
+930378|126 Cedar St|72590.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.931272, 41.295227]}]|row-msgf-qxtd.3bzi|2019|||Two Family||Two Family|160000.0|0.4537|190053|New Haven
+930379|221 Butler St|104580.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.928793, 41.335959]}]|row-sdzc-n46u-d64d|2019|||Two Family||Two Family|250000.0|0.4183|190047|Hamden
+930380|5 Lakeside Rd|128130.0|2019-10-28T00:00:00||row-u4k6-dqkt-wfnz|2019|||Single Family||Single Family|244000.0|0.5251|190006|Morris
+930381|127 Jewett St|107000.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-73.072467, 41.334162]}]|row-vig6-ibb8-z46h|2019|25 - Other||Two Family|Admin deed, low sale|Two Family|95000.0|1.1263|19025|Ansonia
+930382|254 Seaside Avenue # 34C|241500.0|2019-10-28T00:00:00||row-5qxs~hped~wq5x|2019|||Condo||Condo|340000.0|0.7103|1900139|Stamford
+930383|69 Audubon Ave|134640.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.727117, 41.695097]}]|row-cdq9.ep85~gevr|2019|||Single Family||Single Family|199000.0|0.6766|190024|Newington
+930384|147 South Mill Dr|255000.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.600821, 41.663106]}]|row-hxty-yf9n-8san|2019|||Condo||Condo|355000.0|0.7183|190023|Glastonbury
+930385|5 Cree Rd|12620.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.637779, 41.736379]}]|row-cxd5-zv3y~2zg9|2019|14 - Foreclosure||Single Family|Mobile home|Single Family|4000.0|3.155|19039|East Hartford
+930386|99 Overshot Dr|211000.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.602429, 41.662163]}]|row-bysv~f7ks.m85j|2019|||Condo||Condo|340000.0|0.6206|190034|Glastonbury
+930387|97-99 Park Av #54|95500.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-73.463546, 41.384202]}]|row-n677-sebg-xjg5|2019|14 - Foreclosure||Condo|Sale of foreclosure / h16031-35|Condo|161000.0|0.5932|190068|Danbury
+930388|11 Lake Ave|149390.0|2019-10-08T00:00:00||row-ni23.y8ym~ar8u|2019|||Single Family||Single Family|285000.0|0.5242|19006|Haddam
+930389|25 Point Rd|1764560.0|2019-10-08T00:00:00||row-iy69-43jy~n6vw|2019|14 - Foreclosure||Single Family|Sale out of foreclosure - 5-84a-195-0|Single Family|1800000.0|0.980311|190021|Norwalk
+930390|166 Cedar St|106120.0|2019-10-08T00:00:00||row-4ch3-nvyz-vrtq|2019|14 - Foreclosure||Single Family||Single Family|175000.0|0.6064|190011|Seymour
+930391|2625 Park Ave Unit 9E|53470.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-73.215772, 41.193735]}]|row-t63c-j4hk~6syq|2019|||Condo||Condo|115000.0|0.465|190041|Bridgeport
+930392|593 Bailey Hill Rd|115360.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-71.814571, 41.823548]}]|row-4q65-m3ah-gtp4|2019|||Single Family||Single Family|220000.0|0.5244|191009|Killingly
+930393|8 Lower Heatherwood|395640.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-72.635529, 41.631927]}]|row-jqv9.y4b8.6zq8|2019|||Condo|Tpc|Condo|475000.0|0.8329|19000|Cromwell
+930394|98 Carlson Dr|167380.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-73.073292, 41.207111]}]|row-arz7-yg6m-mkjm|2019|||Single Family||Single Family|220000.0|0.7608|190063|Milford
+930395|4 Overlook Ln (Tp)|42970.0|2019-10-16T00:00:00||row-k8gp-6et3-qj7f|2019||Mobile home - good sale per mls|Single Family|Other|Single Family|115000.0|0.373652|190041|Southington
+930396|79 West Ledge|107460.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.958363, 41.787352]}]|row-xpv3-g2zq.kwfk|2019|07 - Change In Property||Single Family|New home|Single Family|620336.0|0.1732|19007|Burlington
+930397|91 Fairwood Ave|147730.0|2019-10-16T00:00:00||row-4vdt-crc7~inkd|2019|||Four Family||Four Family|270000.0|0.5471|190063|Waterbury
+930398|55 East Robbins Ave|142710.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.719074, 41.686871]}]|row-7wwf-knjw-4hj6|2019|||Two Family||Two Family|225000.0|0.6343|190020|Newington
+930399|14 Beauiles Ln|303300.0|2019-10-16T00:00:00||row-hz8x~6ap8~fu98|2019|||Single Family||Single Family|530000.0|0.5723|19160314|Redding
+930400|53-55 Community Ave|68210.0|2019-10-15T00:00:00||row-4hhe~bea4-7i96|2019|||Two Family||Two Family|105000.0|0.6496|19013|Plainfield
+930401|3 Sugar Loaf Mtn Rd|170000.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-73.388723, 41.688473]}]|row-7y55.rdsr~uke5|2019|||Single Family||Single Family|245000.0|0.6939|190002|Kent
+930402|128 Haystack Road|269400.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-72.496406, 41.755593]}]|row-9m3y~au2z~u92m|2019|10 - A Will||Single Family|Trust|Single Family|395000.0|0.682|190039|Manchester
+930403|159 Old Turnpike Rd|166890.0|2019-10-10T00:00:00||row-ibuz-588e-mdnp|2019|||Single Family||Single Family|240000.0|0.6954|190031|Southington
+930404|87 Stone St|44835.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.706612, 41.7357]}]|row-urwm-dsx6~z6ad|2019|||Single Family||Single Family|145000.0|0.3092|19033|Hartford
+930405|33 Kennedy Dr|104160.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.757033, 41.650776]}]|row-dx53~7x9r.ishg|2019|||Single Family||Single Family|169000.0|0.6163|190032|New Britain
+930406|87 Laura La|96460.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.888078, 41.277321]}]|row-m4rt-6fnh-n2tu|2019|||Single Family||Single Family|176000.0|0.5481|190020|New Haven
+930407|16 Greenland Street|110180.0|2019-10-10T00:00:00||row-4ndf.g4eb.znis|2019|14 - Foreclosure||Single Family||Single Family|115000.0|0.9581|190008|Windsor Locks
+930408|325 Goodrich St|99680.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-72.931938, 41.335505]}]|row-ffbw.s7td~3kyv|2019|||Three Family||Three Family|210000.0|0.4747|190026|Hamden
+930409|1901 Hill St|298420.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-72.672951, 42.030141]}]|row-nijz.i7w3-y492|2019|01 - Family||Single Family|Family trx|Single Family|425000.0|0.7022|190009|Suffield
+930410|26 Coolidge Avenue|331560.0|2019-10-08T00:00:00||row-gctf-x6u5.q86u|2019|||Single Family||Single Family|447000.0|0.7417|1900058|Stamford
+930411|405 West Todd St|193410.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.928424, 41.432919]}]|row-8tjc.mgrr-t2c7|2019|14 - Foreclosure||Single Family|Bank sale|Single Family|150000.0|1.2894|190023|Hamden
+930412|5 Quintard Place|669000.0|2019-10-08T00:00:00||row-x75s-v3my-3yim|2019|||Single Family||Single Family|970000.0|0.6897|190007|Westport
+930413|72 Westfield Ave|125440.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-71.880472, 41.813285]}]|row-skji~u2yy~dmgb|2019|14 - Foreclosure||Single Family||Single Family|96000.0|1.3067|191025|Killingly
+930414|368 Bailey Road|2018060.0|2019-10-21T00:00:00||row-xmuk~kcf4~audn|2019|28 - Use Assessment|||8 parcels one purchase price + pa490||2650000.0|0.761532|190020|Sterling
+930415|115 Red Stone Hill|10710.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.885744, 41.662487]}]|row-tafw.24y3-xdvt|2019|17 - Two Towns||Single Family|House in bristol|Single Family|267000.0|0.0401|190027|Plainville
+930416|59 Quanaduck Rd|406200.0|2019-10-21T00:00:00||row-76qg-ye4z~b27q|2019|||Condo||Condo|500000.0|0.8124|190025|Stonington
+930417|13 Merritt Pl|476260.0|2019-10-21T00:00:00||row-hqcj.fwb6~dyue|2019||||2-77-7-0 - no state conveyance tax paid - in an enterprise zone||1000000.0|0.4763|190047|Norwalk
+930418|48 Brookstone Drive|214200.0|2019-10-31T00:00:00||row-vw54~rhyq-d5gv|2019|||Single Family|Colonial built 2003 on 2.28 acres|Single Family|296000.0|0.7236|190013|Sterling
+930419|103 Moreland Ave|146760.0|2019-10-31T00:00:00|[{'type': 'Point', 'coordinates': [-72.730769, 41.688851]}]|row-xxye~2zr5-r5qr|2019|||Single Family||Single Family|250000.0|0.587|190039|Newington
+930420|4A Turkey Roost Road|261430.0|2019-10-18T00:00:00||row-cjj4-ngqz~k9zb|2019|07 - Change In Property||Single Family||Single Family|636430.0|0.4108|19033|Newtown
+930421|33 West Street|133420.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-73.237363, 41.828857]}]|row-izqj-fjej-yj5h|2019|||Single Family|Probate - sale from estate|Single Family|150000.0|0.8895|190007|Goshen
+930422|2 Grandview Terr|252910.0|2019-10-25T00:00:00||row-iefk-vf3s.iq5a|2019|||Single Family||Single Family|423500.0|0.5972|19024|North Haven
+930423|286 Benham St|125860.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-72.933628, 41.365288]}]|row-y8wi-n66u.4ngm|2019|||Single Family||Single Family|200000.0|0.6293|190063|Hamden
+930424|87 Palmer Neck Rd|413100.0|2019-10-18T00:00:00||row-u3kg-7n9r.ut22|2019|||Single Family||Single Family|650000.0|0.6355|190022|Stonington
+930425|697 Peter Rd South|204250.0|2019-10-18T00:00:00||row-2egx~sa5r-cdzy|2019|||Single Family||Single Family|315000.0|0.6484|190040|Southbury
+930426|31 Lillibridge Ct|156730.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.903522, 41.340919]}]|row-p8tq~n6bi.xmev|2019|||Single Family||Single Family|305500.0|0.513|190044|Hamden
+930427|97 Alfred St|140820.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-73.227024, 41.159033]}]|row-7zee~stgv-2vn2|2019|||Two Family||Two Family|262000.0|0.5375|190142|Bridgeport
+930428|32 Ferry Rd|189400.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-72.436908, 41.416242]}]|row-tfhz.paxf-28c4|2019|||Single Family||Single Family|340000.0|0.5571|190004|Chester
+930429|842 Birchwood Dr|286600.0|2019-10-17T00:00:00||row-39hx-5v48.zrmt|2019|||Single Family||Single Family|380000.0|0.7542|19012|Orange
+930430|535 Goldenrod Ave|104780.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-73.219435, 41.209259]}]|row-ap9i-j767~vzju|2019|||Single Family||Single Family|147000.0|0.7128|190101|Bridgeport
+930431|49 Day St Unit 412|91950.0|2019-10-30T00:00:00||row-fij4~v5kp-n2ef|2019|||Condo|2-62-12-412|Condo|150000.0|0.613|190087|Norwalk
+930432|0 Sterling Hill Rd|754.0|2019-10-30T00:00:00||row-7hxi.skt6.w8qx|2019|01 - Family|||||100000.0|0.0075|190005|Lyme
+930433|191 Clinton Av|118020.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-72.891861, 41.315144]}]|row-3t3w.i735.ij9f|2019|||Three Family||Three Family|218000.0|0.5414|190068|New Haven
+930434|Pine Point Rd Unit 357|46900.0|2019-10-25T00:00:00||row-kjre-sfc4-2p9b|2019|||Condo|Condo beach locker - 6-1a-1-357|Condo|85000.0|0.5518|190068|Norwalk
+930435|268 Alexander Rd|77770.0|2019-10-24T00:00:00|[{'type': 'Point', 'coordinates': [-72.785527, 41.706539]}]|row-a8ht.snu9~2iru|2019|||Single Family||Single Family|133000.0|0.5847|190065|New Britain
+930436|115 Mayapple Road|534430.0|2019-10-24T00:00:00||row-hda2-2tby.teau|2019|14 - Foreclosure||Single Family|Sale of foreclosed property|Single Family|506625.0|1.0549|1900126|Stamford
+930437|501 Halladay Ave W|260330.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-72.658039, 42.018183]}]|row-jkih-q572~zf9m|2019|||Single Family||Single Family|374000.0|0.6961|190019|Suffield
+930438|2205 Cromwell Hills Dr|52710.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-72.678027, 41.607398]}]|row-zzz9.36ea~s5gw|2019|14 - Foreclosure||Condo||Condo|82000.0|0.6428|190013|Cromwell
+930439|14 Patricia Ln|276940.0|2019-10-24T00:00:00||row-grv4-e47j-6is7|2019|||Single Family||Single Family|385000.0|0.7193|19000031|Brookfield
+930440|28 Roaring Brook Ln|368830.0|2019-10-24T00:00:00||row-zsxy-q28a.2qt3|2019|||Single Family||Single Family|495000.0|0.7451|190050|Shelton
+930441|79 Huntington Tpk #79|53190.0|2019-10-29T00:00:00||row-6sxv-nbis~v9ye|2019|||Single Family||Single Family|90000.0|0.591|190164|Bridgeport
+930442|105 Harland Ave|77440.0|2019-10-29T00:00:00||row-uv35-u5ze~be88|2019|14 - Foreclosure||Single Family||Single Family|130000.0|0.5957|190125|Waterbury
+930443|182 Traverse St|67030.0|2019-10-29T00:00:00||row-b9rw-ex76-kfm8|2019|25 - Other||Single Family|Relocation|Single Family|155000.0|0.4325|190126|Waterbury
+930444|1407 Briar Woods La|177700.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-73.512861, 41.382842]}]|row-9tad-2jqu-zg64|2019|||Condo|C16028-1407|Condo|292000.0|0.6086|190098|Danbury
+930445|21 Westville Av|194700.0|2019-10-28T00:00:00|[{'type': 'Point', 'coordinates': [-73.466354, 41.392371]}]|row-zvfd.2984-3w38|2019|||Single Family|H14028|Single Family|342000.0|0.5693|190106|Danbury
+930446|0 Cot St Suite 2-D|155890.0|2019-10-29T00:00:00||row-z5y7.erw6-ew3x|2019||||||148837.0|1.0474|190061|Shelton
+930447|2 Stetson Place|110600.0|2019-10-22T00:00:00|[{'type': 'Point', 'coordinates': [-73.472705, 41.427494]}]|row-jnie-ze3x.b63s|2019|||Condo|G07037-2|Condo|218000.0|0.5073|190078|Danbury
+930448|41 Club House Dr|126070.0|2019-10-22T00:00:00|[{'type': 'Point', 'coordinates': [-72.687866, 41.604957]}]|row-xbdj-wz3w.x8qm|2019|||Condo||Condo|189000.0|0.667|190012|Cromwell
+930449|106 Wells Rd|153510.0|2019-10-21T00:00:00||row-44r3-nf74-yfud|2019|||Single Family||Single Family|295000.0|0.5204|19000015|Granby
+930450|18 Portland St|72950.0|2019-10-22T00:00:00|[{'type': 'Point', 'coordinates': [-72.652047, 41.567624]}]|row-3twk-92gz-5cux|2019|25 - Other||Two Family|Sale not subject to market|Two Family|65000.0|1.1223|190053|Middletown
+930451|143 Stilson Hill Rd|228480.0|2019-10-28T00:00:00||row-dtpg-u6kp.z5bt|2019|||Single Family||Single Family|375000.0|0.6093|1900045|New Milford
+930452|3 E Ridge Ct|293090.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.867142, 41.544032]}]|row-d7h5.9mwz~nyu9|2019|||Single Family||Single Family|410000.0|0.7149|1900027|Cheshire
+930453|15 Coronado Dr|96220.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.734974, 41.660677]}]|row-ymiy-xw5q.y52h|2019|||Condo||Condo|130000.0|0.7402|190023|Newington
+930454|118 Wellsview|355640.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-73.115464, 41.279319]}]|row-ivru.7dw2-uce9|2019|||Condo||Condo|543665.0|0.6542|190036|Shelton
+930455|1001 A Heritage Village|112630.0|2019-10-21T00:00:00||row-2ehd-zn5a-z3ca|2019|||Condo||Condo|207250.0|0.5434|190044|Southbury
+930456|50 Aiken St Unit B/463|145090.0|2019-10-21T00:00:00||row-47n9~epb4~w6xt|2019|||Condo|5-21-101-b/463|Condo|229000.0|0.6336|190049|Norwalk
+930457|32 Lone Pine Tr|137450.0|2019-10-21T00:00:00||row-uhdj-vyvb-h96k|2019|||Single Family||Single Family|300000.0|0.4582|19009|Haddam
+930458|701 Albany Ave|118720.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.688351, 41.778874]}]|row-3tn9.ixm3.hyda|2019||||||180000.0|0.6596|19030|Hartford
+930459|64 & 66 West St|500900.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-73.456149, 41.392184]}]|row-by3d-cp93.7hn4|2019|24 - Plottage|||2 parcels sold together / i14091 & i14092||1500000.0|0.3339|190032|Danbury
+930460|135 Jewett Ave|107960.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-73.21344, 41.212237]}]|row-me6q-dgm6.g622|2019|||Single Family||Single Family|213000.0|0.5069|190051|Bridgeport
+930461|64 Lakeview Ct|147500.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-72.339982, 41.560519]}]|row-uv78.g8bp.imid|2019|||Single Family||Single Family|255000.0|0.5784|19008|Colchester
+930462|15 High View Ci|200100.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-73.447832, 41.435358]}]|row-jbn3-sq99-wih3|2019|14 - Foreclosure||Single Family|Government - veteran / i06224|Single Family|298000.0|0.6715|190016|Danbury
+930463|105-109 Cannon Road|96120.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-72.590559, 41.776759]}]|row-f968-bupa-55z6|2019|||Three Family||Three Family|170000.0|0.5654|19021|East Hartford
+930464|7 Robert Rd|81240.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.475635, 41.865453]}]|row-99p6.tcfp-datu|2019|14 - Foreclosure||Single Family||Single Family|118750.0|0.6841|190030|Vernon
+930465|119 Grandview Avenue|158300.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.774304, 41.641196]}]|row-nkvs~3zmn.by5t|2019|||Single Family|Qualified sale|Single Family|257500.0|0.6148|190013|Berlin
+930466|234A Richards Ave|386370.0|2019-10-16T00:00:00||row-wban~ejd6~5zuu|2019|||Single Family|5-68-158-0|Single Family|482000.0|0.8016|190036|Norwalk
+930467|1030 Campbell Ave|153160.0|2019-10-16T00:00:00||row-i64w-jg5n~9d3p|2019|||Three Family||Three Family|350000.0|0.4376|19037|West Haven
+930468|6 Pine Point Rd|1005573.0|2019-10-16T00:00:00||row-fhyd.jxbs-ytz3|2019|||Single Family|6-57a-70-0|Single Family|1425000.0|0.7057|190035|Norwalk
+930469|52 Pershing Ave|129500.0|2019-10-15T00:00:00||row-i4su.6mr2-xsnp|2019|14 - Foreclosure||Single Family||Single Family|140000.0|0.925|190017|Seymour
+930470|36 Rosewood Drive|441070.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-73.268112, 41.228463]}]|row-gbd4-rjrh-4xp6|2019|||Single Family||Single Family|653250.0|0.6752|190003|Easton
+930471|551 Stafford Rd|172300.0|2019-10-15T00:00:00||row-7knj-sna7~d8tk|2019|||Single Family||Single Family|269900.0|0.6384|190005|Somers
+930472|154 Mandel Dr|173570.0|2019-10-10T00:00:00||row-trv6-48km-psvm|2019|||Single Family||Single Family|271000.0|0.6405|190029|Southington
+930473|162R Tri-Mountain Road|212380.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.720919, 41.454738]}]|row-9dur~fgin~4ene|2019|25 - Other||Single Family|Estate sale / administrator's deed.  decedent's family lives out of state and not interested in reta|Single Family|215000.0|0.9878|19144|Durham
+930474|174 Country Woods Lane|484520.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-73.240588, 41.506092]}]|row-h3vy.vdyy-jk4j|2019|14 - Foreclosure||Single Family||Single Family|431194.0|1.1237|190025|Southbury
+930475|25 Susan Circle|128240.0|2019-10-10T00:00:00||row-5cbz-pz9d~237v|2019|||Single Family|011-0068|Single Family|257500.0|0.498|190006|Portland
+930476|57-59 Merchants Ave|94600.0|2019-10-10T00:00:00||row-7hzy-g4yp-hphk|2019|||Four Family||Four Family|180000.0|0.5256|190026|Norwich
+930477|17 Highland Ave|99050.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.652971, 41.824682]}]|row-6xnb.u922-qbce|2019|18 - In Lieu Of Foreclosure||Single Family||Single Family|57259.0|1.7299|190027|Windsor
+930478|Cox Rd|82460.0|2019-10-09T00:00:00||row-jgfk-irya-w5rg|2019|08 - Part Interest|||078-0005 1/2 interest||36000.0|2.2906|190005|Portland
+930479|15 Edna Ct|718220.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-73.378711, 41.436936]}]|row-7kf5.a4uf.649t|2019|14 - Foreclosure||Single Family|Foreclosure|Single Family|837000.0|0.8581|19000015|Brookfield
+930480|280 Eastern Pt Rd|108430.0|2019-10-09T00:00:00||row-zgem-hc7t-ywup|2019|||Single Family||Single Family|241500.0|0.449|190018|Groton
+930481|1009 Jerome Ave|76800.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.927202, 41.717155]}]|row-bdpd.zhen-g6rn|2019|07 - Change In Property||Single Family|Improved sale|Single Family|242500.0|0.3167|190023|Bristol
+930482|229 Branford Road #548|98200.0|2019-10-08T00:00:00||row-g2qv.kkfz-653p|2019|||Condo||Condo|163000.0|0.6025|190151|North Branford
+930483|115 Salerno Ave|123290.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.870918, 41.258964]}]|row-y86t-cc4h.28uy|2019|18 - In Lieu Of Foreclosure||Single Family||Single Family|105000.0|1.1742|1900026|East Haven
+930484|57 Londonderry Dr|175600.0|2019-10-21T00:00:00||row-8fct.bnie-dgra|2019|||Single Family||Single Family|263000.0|0.6677|190041|Wallingford
+930485|101 Longmeadow Dr|105400.0|2019-10-21T00:00:00||row-hy86~qezi-ehwp|2019|07 - Change In Property||Single Family|New construction|Single Family|741861.0|0.1421|190037|South Windsor
+930486|401 Bailey Rd|239260.0|2019-10-21T00:00:00||row-ju26.gipf-xm2t|2019|28 - Use Assessment||Single Family|8 parcels 1 purchase price and pa 490|Single Family|2650000.0|0.090287|190017|Sterling
+930487|127 Hoover Ave|129920.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.930636, 41.690925]}]|row-s3cp.gukv.dkg8|2019|||Single Family||Single Family|230000.0|0.5649|190055|Bristol
+930488|866 Long Hill Rd|116840.0|2019-10-18T00:00:00||row-bpgf~bd4y-um92|2019|||Condo||Condo|125000.0|0.9347|190044|Middletown
+930489|66 Elmwood Dr|119450.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.908002, 41.487436]}]|row-tu9w.kzmf-izwx|2019|07 - Change In Property|Renovated per mls - assessment increased to $182,340|Single Family||Single Family|291000.0|0.4105|1900029|Cheshire
+930490|74 Morton Rd|77920.0|2019-10-25T00:00:00||row-heey.quvy-wreg|2019|26 - Rehabilitation Deferred|Per mls price reduced due to failure of septic system - needs sewer connection|Single Family||Single Family|70000.0|1.113143|190115|Waterbury
+930491|35 St James Ave|160280.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-72.578896, 42.002279]}]|row-ekur~vyks.ienz|2019|||Single Family||Single Family|281000.0|0.5704|190045|Enfield
+930492|76 Porter St|100500.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-73.197292, 41.193326]}]|row-q5a6-44ca~2ar4|2019|||Single Family||Single Family|170150.0|0.5907|190107|Bridgeport
+930493|129 Haviland Rd|374120.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-73.476871, 41.308188]}]|row-p8k7-x4ja-i3ye|2019|||Single Family||Single Family|530000.0|0.7059|19210|Ridgefield
+930494|238 Broad St|99900.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.070952, 41.531771]}]|row-mrqn-u4jc-2m5b|2019|||Two Family||Two Family|164500.0|0.6073|190053|Norwich
+930495|12 Jessie Ln|211810.0|2019-10-23T00:00:00||row-r7sj~tu88~cu2h|2019|||Single Family||Single Family|363730.0|0.5823|190011|East Windsor
+930496|28 Seagrave St|137620.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-71.893328, 41.774289]}]|row-yht3-wfqe-z2vk|2019|||Single Family||Single Family|228500.0|0.6023|191021|Killingly
+930497|285 Highland Ave|300440.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-73.435155, 41.084734]}]|row-rewg.dafg-ph7v|2019|||Single Family|5-80-137-0|Single Family|425000.0|0.7069|190042|Norwalk
+930498|129 Crescent Drive|84040.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.614809, 41.740714]}]|row-md3a-85gr.5iid|2019|||Single Family||Single Family|140000.0|0.6003|19042|East Hartford
+930499|222 Williams St E Unit 214|73600.0|2019-10-30T00:00:00|[{'type': 'Point', 'coordinates': [-72.598589, 41.70439]}]|row-5evq.9ask-aepq|2019|||Condo||Condo|119000.0|0.6185|190045|Glastonbury
+930500|7D Maplewood Condo|83160.0|2019-10-25T00:00:00||row-f4y5.atg7.hgcy|2019|||Condo||Condo|168500.0|0.4935|19015|Derby
+930501|56 Twin Oaks|117390.0|2019-10-25T00:00:00||row-xyb6~gven-tdnd|2019|||Condo||Condo|180000.0|0.6522|1900043|New Milford
+930502|3 Valley View Rd|194040.0|2019-10-25T00:00:00||row-u9qk-senq.jv8r|2019|||Single Family||Single Family|315000.0|0.616|190028|East Lyme
+930503|523 Main St|513300.0|2019-10-24T00:00:00|[{'type': 'Point', 'coordinates': [-73.116445, 41.603246]}]|row-6w47.4ef4-i2eq|2019|18 - In Lieu Of Foreclosure|||||302650.0|1.696|19029|Watertown
+930504|76 Crystal Lake Rd|125860.0|2019-10-23T00:00:00|[{'type': 'Point', 'coordinates': [-72.365374, 41.961067]}]|row-5u9i-qkwh.dv78|2019|25 - Other|Per mls home inspector visual inspection recommends core test on foundation|Single Family||Single Family|100000.0|1.2586|19016|Stafford
+930505|16 Conklin Rd|213990.0|2019-10-22T00:00:00||row-a7xc.rquj.qtj4|2019|||Single Family||Single Family|234400.0|0.9129|19014|Stafford
+930506|146 Wykeham Rd|754690.0|2019-10-22T00:00:00||row-z6dc~7jpe~x695|2019|||Single Family||Single Family|1400000.0|0.5391|190005|Washington
+930507|19 Runge Dr|119210.0|2019-10-22T00:00:00|[{'type': 'Point', 'coordinates': [-72.838609, 41.544355]}]|row-87hd-zht5~uqw6|2019|||Single Family||Single Family|185000.0|0.6444|190107|Meriden
+930508|20 Dover Road|1587100.0|2019-10-22T00:00:00||row-fyjt~ju2a~bc8e|2019|||Single Family||Single Family|1650000.0|0.9619|190022|Westport
+930509|11-13 Putnam Rd|73800.0|2019-10-17T00:00:00||row-3jyt-2gzn-mjnz|2019|14 - Foreclosure||Two Family||Two Family|73000.0|1.011|19018|Plainfield
+930510|535 Goldenrod Ave|104780.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-73.219435, 41.209259]}]|row-ap9i-j767~vzju|2019|||Single Family||Single Family|147000.0|0.7128|190101|Bridgeport
+930511|401 Bailey Rd|239260.0|2019-10-21T00:00:00||row-ju26.gipf-xm2t|2019|28 - Use Assessment||Single Family|8 parcels 1 purchase price and pa 490|Single Family|2650000.0|0.090287|190017|Sterling
+930512|59 Quanaduck Rd|406200.0|2019-10-21T00:00:00||row-76qg-ye4z~b27q|2019|||Condo||Condo|500000.0|0.8124|190025|Stonington
+930513|263 Stanley St|102200.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.76753, 41.655556]}]|row-66n6-yfdg~8qkt|2019|||Single Family||Single Family|170900.0|0.598|190049|New Britain
+930514|35 Church St|1034950.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-73.49041, 41.142858]}]|row-7u4v-xe49-vk4g|2019|||Single Family||Single Family|1670000.0|0.6197|190012|New Canaan
+930515|45 Pheasant Run|193070.0|2019-10-08T00:00:00||row-emeg~7a7j-3ukg|2019|||Single Family||Single Family|286340.0|0.6743|19011|Montville
+930516|23 Knollwood Avenue|436390.0|2019-10-08T00:00:00||row-hfee~j3sf~82xw|2019|||Single Family||Single Family|720000.0|0.6061|1900052|Stamford
+930517|63 Sunset Circle|253820.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-73.242902, 41.166468]}]|row-n5qd.dmjc-yd37|2019|||Single Family||Single Family|435000.0|0.5835|190026|Fairfield
+930518|24 Glendale Ave|44170.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-72.694753, 41.750894]}]|row-iiaz~77w3.auye|2019|||Two Family||Two Family|151000.0|0.2925|19018|Hartford
+930519|11 Holcomb St|78810.0|2019-10-07T00:00:00||row-9fzu-ydkb.jpez|2019|25 - Other|||Estate sale / hardship||105000.0|0.7506|190014|Simsbury
+930520|250 Danbury Rd|510300.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-73.427484, 41.190723]}]|row-sibz~da6h~empn|2019|25 - Other|||Estate sale||600000.0|0.8505|190012|Wilton
+930521|68 Pleasant St|197050.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.799059, 41.534366]}]|row-b8su-92uv.xtya|2019|||Three Family||Three Family|400000.0|0.4926|190048|Meriden
+930522|17 Ireland Rd|174130.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.666514, 41.71304]}]|row-m84k-2bzb~vu4i|2019|||Single Family||Single Family|300000.0|0.5804|190022|Wethersfield
+930523|25 Brookside Dr|235000.0|2019-10-16T00:00:00||row-wqqj-yrta-3fi3|2019|||Single Family||Single Family|325000.0|0.7231|19009|Monroe
+930524|234 Lakeview Ave|87970.0|2019-10-16T00:00:00||row-e6yh.iz54-7abb|2019|25 - Other||Single Family|Estate sale|Single Family|119795.0|0.7343|190060|Waterbury
+930525|171 Redstone Hill|153440.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-72.908416, 41.657508]}]|row-ihpx.2npw-24pm|2019||No mls|Single Family||Single Family|150100.0|1.0223|190033|Bristol
+930526|19 Woodbridge Ave|113000.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-73.075051, 41.352946]}]|row-ea2i-7ru5-n36w|2019|||Two Family||Two Family|200000.0|0.565|19015|Ansonia
+930527|86 Talcott Ridge Rd|383400.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.50649, 41.841956]}]|row-83rc~xp63-bsc6|2019|||Single Family||Single Family|552500.0|0.6939|190017|South Windsor
+930528|74 Hickory Knoll Drive|324630.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-73.280404, 41.258644]}]|row-5s2b-9f5z~733a|2019|01 - Family||Single Family||Single Family|55000.0|5.9024|190002|Easton
+930529|184 Pleasant St|140400.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.324383, 41.570365]}]|row-tgiv~kbz7-j2ay|2019|||Single Family||Single Family|225000.0|0.624|19013|Colchester
+930530|27 Winthrop Pl|192300.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-73.197225, 41.324412]}]|row-px73-ssp5-8t8y|2019|||Single Family||Single Family|330000.0|0.5827|19005|Monroe
+930531|671 Lake Ave|86520.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-72.923562, 41.647828]}]|row-gphj.ewmn-58bt|2019|||Single Family||Single Family|170000.0|0.5089|190028|Bristol
+930532|27 Beecher St|110500.0|2019-10-09T00:00:00||row-h7bn.h3c2~gepb|2019|||Single Family||Single Family|176000.0|0.6278|190021|Southington
+930533|221 Northwood Dr|278080.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.69892, 41.358777]}]|row-xetp-a52t-iqi2|2019|||Single Family||Single Family|470000.0|0.5917|190006|Guilford
+930534|43 Barber Farm Rd|244890.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.004435, 41.57784]}]|row-ag23~fusm-qkd7|2019|07 - Change In Property||Single Family||Single Family|388873.0|0.6297|19002|Lisbon
+930535|11 Lake Ave|149390.0|2019-10-08T00:00:00||row-ni23.y8ym~ar8u|2019|||Single Family||Single Family|285000.0|0.5242|19006|Haddam
+930536|28C-5 Prospect Street|30300.0|2019-10-21T00:00:00||row-mebp.a7xc.84wj|2019|||Condo||Condo|54000.0|0.5611|190051|Manchester
+930537|119 Lincolndale Dr|101180.0|2019-10-21T00:00:00||row-qnz3-y6jp-n7tv|2019|07 - Change In Property||Single Family||Single Family|179900.0|0.5624|190087|Waterbury
+930538|127 Spring St|78350.0|2019-10-21T00:00:00||row-wiad.6rj8~3nha|2019|||Single Family||Single Family|133200.0|0.5882|190046|Middletown
+930539|7 Dolphin Cove Quay|1037520.0|2019-10-21T00:00:00||row-iigt-hid8-kk9w|2019|||Single Family||Single Family|1425000.0|0.7281|1900113|Stamford
+930540|10 Farmview Dr|326290.0|2019-10-18T00:00:00||row-4r32-4byw~bwrm|2019|||Single Family||Single Family|455000.0|0.7171|1900028|New Milford
+930541|3 Kelsey Street|404320.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-73.505248, 41.070794]}]|row-23vs-mjsq-wbd7|2019|25 - Other||Single Family|Sold out of estate.|Single Family|360000.0|1.1231|19009|Darien
+930542|350-352 Park Ave|94590.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-73.192763, 41.167334]}]|row-2gd8-zf9b-t9ds|2019|||Two Family||Two Family|198000.0|0.4777|190113|Bridgeport
+930543|15 Palestine Road|111510.0|2019-10-25T00:00:00||row-dvn5.d7db~t8cv|2019|||Single Family||Single Family|225000.0|0.4956|19045|Newtown
+930544|13 Teddy Ln|115300.0|2019-10-25T00:00:00|[{'type': 'Point', 'coordinates': [-72.131395, 41.508065]}]|row-c9xg-sdab-24b4|2019|||Single Family||Single Family|207500.0|0.5557|190066|Norwich
+930545|347 Hillside Ave|75810.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.697962, 41.741951]}]|row-rgru.f2ye-h588|2019|25 - Other||Three Family|Part of an irc section 1031 tax deferred exchange|Three Family|207000.0|0.3662|19049|Hartford
+930546|9L Birch Ln|58480.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-72.849333, 41.328339]}]|row-7cqs~ixi5-rn79|2019|||Condo||Condo|80000.0|0.731|1900023|East Haven
+930547|25 Lincoln Ave|166700.0|2019-10-25T00:00:00||row-ufe7.mbag-t54h|2019|25 - Other||Single Family|Distressed sale|Single Family|205000.0|0.8132|190070|Wallingford
+930548|575 Patriot Rd|416550.0|2019-10-17T00:00:00||row-9njm-rd5e~9w74|2019|||Single Family||Single Family|671250.0|0.6206|190038|Southbury
+930549|Bailey Rd|43460.0|2019-10-21T00:00:00||row-hcxt.5cq3-fw88|2019|28 - Use Assessment|||8 parcels one purchase price + pa 490||2650000.0|0.0164|190018|Sterling
+930550|17 Mountain View Ave|117880.0|2019-10-21T00:00:00|[{'type': 'Point', 'coordinates': [-72.90698, 41.692852]}]|row-unb5-gcja-b6iz|2019|06 - Portion Of Property||Single Family|Cut up/split|Single Family|181000.0|0.6513|190058|Bristol
+930551|4001 Hancock Dr|183800.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-73.421715, 41.431616]}]|row-cvhs~k8t6~5aja|2019|||Condo|K07106-111|Condo|305000.0|0.6026|190029|Danbury
+930552|7 Dana Rd|174600.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-73.478745, 41.436177]}]|row-nhnw-mbpt~5gdg|2019|||Single Family|F06070|Single Family|296000.0|0.5899|190030|Danbury
+930553|37 Circle St|215240.0|2019-10-08T00:00:00||row-yb29.vj82~93tq|2019|||Single Family|2-9-30-0|Single Family|352000.0|0.6115|190020|Norwalk
+930554|34 West Point Terrace|142010.0|2019-10-07T00:00:00||row-k84w.ssbf~24im|2019|||Two Family||Two Family|240000.0|0.5917|190016|Simsbury
+930555|161 Grove Street # 2|209460.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-73.533761, 41.05956]}]|row-yzen-7cdw-qe7x|2019|14 - Foreclosure||Condo|Sale of foreclosed parcel|Condo|264900.0|0.7907|1900048|Stamford
+930556|44 Lewis Rd|108780.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-72.792716, 41.70172]}]|row-jx74-cj5g.s5pt|2019|||Two Family||Two Family|180000.0|0.6043|190020|New Britain
+930557|13 Basking Ridge Rd|233310.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-73.116907, 41.306127]}]|row-5n6d-7n6w-wqqi|2019|||Condo||Condo|375000.0|0.6222|190031|Shelton
+930558|35 Long Hill Farms|228180.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.709271, 41.311012]}]|row-5bwp~v5cy~eymz|2019|||Single Family||Single Family|375000.0|0.6085|190018|Guilford
+930559|Wl608  Dresden Circle|68360.0|2019-10-16T00:00:00||row-78yi~ikjh~z3ve|2019||||Limited use?||35000.0|1.9531|190006|Goshen
+930560|17 George Road|139720.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.657258, 41.913329]}]|row-x5r5-bjtj~87ne|2019|||Single Family||Single Family|256000.0|0.5458|190014|Windsor Locks
+930561|7 Rye Field Dr|148100.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-72.538974, 41.995309]}]|row-f35i-js9m-8vcp|2019|||Single Family||Single Family|242000.0|0.612|190026|Enfield
+930562|75 Alice St Ext|173000.0|2019-10-15T00:00:00||row-883b~iprb.2pdt|2019|||Single Family||Single Family|282000.0|0.6135|190033|Norwich
+930563|65 Sexton Hollow Road|294010.0|2019-10-15T00:00:00||row-w8zi-usqs~bjs9|2019|||Single Family||Single Family|440000.0|0.6682|190008|Canton
+930564|46 Oakview Circle Unit 6-103|30560.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-73.202387, 41.185907]}]|row-3t9q-ergr~6gca|2019|14 - Foreclosure||Condo||Condo|45000.0|0.6791|190064|Bridgeport
+930565|66, 70, 72 West Main|450200.0|2019-10-10T00:00:00||row-r2sw.pser-nui3|2019|01 - Family|||Three parcels in sale - mixed use - family sale||600000.0|0.7503|190009|Clinton
+930566|43 Craigemore Circle|243830.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.88384, 41.806411]}]|row-m9yb-szem-ipjt|2019|||Single Family||Single Family|378000.0|0.6451|190023|Avon
+930567|53 Baileys Ln|171810.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.684737, 41.693473]}]|row-4y69-rink~f5zw|2019|||Condo||Condo|318000.0|0.5403|190002|Wethersfield
+930568|8 Penny Lane|274680.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-73.427821, 41.378761]}]|row-ukwy-2n36-qm7u|2019|08 - Part Interest||Condo||Condo|75000.0|3.6624|190014|Bethel
+930569|14 Nutmeg Lane|181650.0|2019-10-09T00:00:00||row-36as-rdwz.rnew|2019|||Single Family||Single Family|298000.0|0.6096|19017|Newtown
+930570|132 Rockwell Ave|124110.0|2019-10-09T00:00:00||row-ejmr-rrwn~fach|2019|||Single Family||Single Family|202000.0|0.6144|190014|Plainville
+930571|15 Aspen Rise|199400.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.762611, 41.925081]}]|row-7u86-ybsr-8zr9|2019|||Single Family||Single Family|318000.0|0.627|190002|East Granby
+930572|69 Dorothy Rd|71890.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.917854, 41.693419]}]|row-e5uq~t56k-9zg5|2019|||Single Family||Single Family|119000.0|0.6041|190024|Bristol
+930573|169 Sheraton Ln|37700.0|2019-10-18T00:00:00||row-h3sx-nwnf-8z52|2019|||Condo||Condo|56000.0|0.6732|190055|Norwich
+930574|55 Dowd Avenue Unit 11|70720.0|2019-10-18T00:00:00|[{'type': 'Point', 'coordinates': [-72.904655, 41.824227]}]|row-r937-fqq2-py8s|2019|||Condo||Condo|104900.0|0.6742|190013|Canton
+930575|36 Morrison St A&B|166400.0|2019-10-17T00:00:00||row-nxwc.2wsn~miaa|2019|||Condo|Unit a 83200 unit b 83200|Condo|220000.0|0.7564|190036|Vernon
+930576|75 Waverly Rd|341740.0|2019-10-17T00:00:00|[{'type': 'Point', 'coordinates': [-73.155287, 41.290176]}]|row-7fb3.5h7z-h3ki|2019|||Single Family||Single Family|430000.0|0.7947|190037|Shelton
+930577|148 Hewitt Rd|135700.0|2019-10-08T00:00:00||row-entw-dtqx~7g5d|2019|||Single Family||Single Family|175000.0|0.7754|190012|Stonington
+930578|145 Old Redding Rd|268700.0|2019-10-08T00:00:00||row-i7zz-kh2g-xcjp|2019|||Single Family||Single Family|359000.0|0.7485|19160313|Redding
+930579|40 Windsor Road # 1|254210.0|2019-10-08T00:00:00||row-3vre-cqb3-z922|2019|||Condo||Condo|360000.0|0.7061|1900053|Stamford
+930580|32 Leesville Rd|139680.0|2019-10-07T00:00:00||row-juzu-yifx.6ejb|2019|14 - Foreclosure||Single Family||Single Family|117000.0|1.1938|19007|East Haddam
+930581|245 Brooksvale Ave|83930.0|2019-10-07T00:00:00|[{'type': 'Point', 'coordinates': [-72.914843, 41.446276]}]|row-c2dg~mbpp-dk49|2019|07 - Change In Property|New construction|Single Family||Single Family|389600.0|0.2154|190018|Hamden
+930582|311 Ridgewood Dr|182770.0|2019-10-16T00:00:00||row-rpin-kynb-eviz|2019|||Single Family||Single Family|275000.0|0.6646|190036|Groton
+930583|98 Cherry Cir|152760.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.972257, 41.530135]}]|row-rhti-5nwp.re6u|2019|07 - Change In Property||Condo||Condo|357875.0|0.4269|19013|Prospect
+930584|204 Bayberry Dr|94150.0|2019-10-15T00:00:00|[{'type': 'Point', 'coordinates': [-72.91214, 41.665061]}]|row-4idk~edge-nvxy|2019|||Single Family||Single Family|139900.0|0.673|190042|Bristol
+930585|1123 Waterbury Rd U2A|38510.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.931066, 41.519977]}]|row-p9d6-86wm-3s5j|2019|07 - Change In Property||Condo||Condo|75000.0|0.5135|1900015|Cheshire
+930586|145 Phipps Dr|150430.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.970371, 41.267198]}]|row-3gmk-m2hv~rskh|2019|||Single Family||Single Family|265000.0|0.5677|19028|West Haven
+930587|20 Namonee|103430.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.489714, 41.59963]}]|row-f3eh~v8yw.v6hu|2019|||Single Family||Single Family|130000.0|0.7956|190009|East Hampton
+930588|40 Chamberlain Rd|181060.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.662157, 41.702288]}]|row-yssi-eh7m-jf5h|2019|||Single Family||Single Family|245000.0|0.739|190006|Wethersfield
+930589|60 Hilltop Drive|244510.0|2019-10-10T00:00:00||row-jt3z-tiii-2izg|2019|14 - Foreclosure||Single Family|Sale of foreclosed property|Single Family|260500.0|0.9386|190014|Trumbull
+930590|146 Gaymoor Drive|374260.0|2019-10-09T00:00:00||row-pjk8-picw-3vci|2019|||Single Family||Single Family|438000.0|0.8545|1900063|Stamford
+930591|54 Cambridge Court|82310.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-73.039212, 41.465751]}]|row-8kgx.c3ft-hsct|2019|||Condo||Condo|164900.0|0.4992|190006|Beacon Falls
+930592|40 Nolan Rd|98000.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-73.083982, 41.355717]}]|row-5k4t.2t6p~x499|2019|||Single Family||Single Family|184000.0|0.5326|19010|Ansonia
+930593|34 Homestead Ave|106330.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.801798, 41.666842]}]|row-sjjs~rj2f-neck|2019|25 - Other||Two Family|Sale price is not reflective of market value for this type of property|Two Family|77000.0|1.3809|190026|New Britain
+930594|710 Brayman Hollow Rd|144800.0|2019-10-08T00:00:00||row-hrid-jmym-52y5|2019|||Single Family||Single Family|185000.0|0.7827|190007|Pomfret
+930595|34 Bailey Road|294720.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.860088, 41.813031]}]|row-wk6d-a4zq-pq3j|2019|07 - Change In Property||Single Family||Single Family|120000.0|2.456|190022|Avon
+930596|221 Northwood Dr|278080.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.69892, 41.358777]}]|row-xetp-a52t-iqi2|2019|||Single Family||Single Family|470000.0|0.5917|190006|Guilford
+930597|69 Maennerchor Ave|77800.0|2019-10-07T00:00:00||row-bqgu.hmag-xmgc|2019|||Single Family||Single Family|115000.0|0.6765|190021|Norwich
+930598|1423 Quinnipiac Av # 212|48650.0|2019-10-16T00:00:00|[{'type': 'Point', 'coordinates': [-72.87122, 41.325165]}]|row-byn4.fabq~98km|2019|25 - Other||Condo|Below market|Condo|61000.0|0.7975|190037|New Haven
+930599|1030 Campbell Ave|153160.0|2019-10-16T00:00:00||row-i64w-jg5n~9d3p|2019|||Three Family||Three Family|350000.0|0.4376|19037|West Haven
+930600|5481 Durham Rd|156030.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.690582, 41.432232]}]|row-9tdx-btp2~ny3k|2019|||Single Family||Single Family|183500.0|0.8503|190011|Guilford
+930601|15 Hicksville Rd|192150.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-72.665895, 41.595886]}]|row-e2a5-nx3v-uavq|2019|||Single Family||Single Family|309500.0|0.6208|190006|Cromwell
+930602|40 West Point Terrace|150340.0|2019-10-10T00:00:00||row-hmg8-c9pm-y7ku|2019|||Single Family||Single Family|244000.0|0.6161|190017|Simsbury
+930603|111 Hannahs Road|401220.0|2019-10-10T00:00:00||row-yq2t.mb9z~tk8z|2019|||Single Family||Single Family|680000.0|0.59|1900070|Stamford
+930604|48 Squash Hollow Rd|126420.0|2019-10-10T00:00:00|[{'type': 'Point', 'coordinates': [-73.4644, 41.611338]}]|row-i8h5~gemp~8256|2019|10 - A Will||Single Family|Will|Single Family|85000.0|1.4873|1900020|New Milford
+930605|Sterling Rd|16300.0|2019-10-09T00:00:00||row-zdd7-q33g-8rmr|2019||||10 acres||23000.0|0.7087|190004|Sterling
+930606|1 Strawberry Hill Ave # 16E|246270.0|2019-10-09T00:00:00||row-dkmh.7bb9~gb7i|2019|||Condo||Condo|400000.0|0.6157|1900065|Stamford
+930607|16 Willowbrook Ave # 3|235390.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-73.514798, 41.048331]}]|row-vc7w.gtwi~y5h3|2019|||Condo||Condo|350000.0|0.6725|1900061|Stamford
+930608|23 Putnam Hts|136430.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.692095, 41.758973]}]|row-9jqb.s9x8-83kj|2019||||||190000.0|0.7181|19020|Hartford
+930609|One Pomperaug Office Park #202|68510.0|2019-10-08T00:00:00||row-zvva-jwy9~qt9g|2019||||||53000.0|1.2926|190021|Southbury
+930610|11 Foxcroft Road|298830.0|2019-10-08T00:00:00||row-bq2d-szfg~t389|2019|||Single Family||Single Family|458000.0|0.6525|190025|West Hartford
+930611|1 Sears Pl|112850.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.507556, 41.588845]}]|row-sjmz-vy3e-badp|2019|25 - Other|Estate sale - per mls price reflects much needed work - sold as is|Single Family||Single Family|105000.0|1.0748|190007|East Hampton
+930612|16 Thomasina Lane|940730.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-73.492707, 41.063059]}]|row-yjej-27qd-7anr|2019|||Single Family||Single Family|1200000.0|0.7839|19005|Darien
+930613|562 Camp St|129430.0|2019-10-16T00:00:00||row-zjks-ee94.z4xu|2019|06 - Portion Of Property||Single Family||Single Family|160000.0|0.8089|190075|Plainville
+930614|25 Twin Walls Lane|1231330.0|2019-10-16T00:00:00||row-yhnb-96tt~65h6|2019|||Single Family||Single Family|1610000.0|0.7648|190008|Weston
+930615|16 Greenland Street|110180.0|2019-10-10T00:00:00||row-4ndf.g4eb.znis|2019|14 - Foreclosure||Single Family||Single Family|115000.0|0.9581|190008|Windsor Locks
+930616|472 Route 81|173120.0|2019-10-09T00:00:00||row-uqc9~dhyd.4gun|2019|||Single Family||Single Family|315000.0|0.5496|190008|Killingworth
+930617|104 Williams St|137410.0|2019-10-09T00:00:00||row-xcdr~gucf-kafh|2019|||Single Family||Single Family|231000.0|0.5948|190013|Plainville
+930618|93 Mansfield Rd|152710.0|2019-10-09T00:00:00|[{'type': 'Point', 'coordinates': [-73.10055, 41.747944]}]|row-68e2-mb75.pigx|2019|||Single Family||Single Family|245000.0|0.6233|190004|Harwinton
+930619|222 Arbutus Street|89620.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.581686, 41.778219]}]|row-ipmf~h3pk~frvu|2019|||Single Family||Single Family|137000.0|0.6542|19026|East Hartford
+930620|69 Dorothy Rd|71890.0|2019-10-08T00:00:00|[{'type': 'Point', 'coordinates': [-72.917854, 41.693419]}]|row-e5uq~t56k-9zg5|2019|||Single Family||Single Family|119000.0|0.6041|190024|Bristol
