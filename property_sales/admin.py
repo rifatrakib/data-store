@@ -1,3 +1,4 @@
 from django.contrib import admin
+from property_sales.models import SalesRecord
 
-# Register your models here.
+admin.site.register(SalesRecord)

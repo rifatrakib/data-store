@@ -26,7 +26,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # 'property_sales.apps.PropertySalesConfig',
+    'django.contrib.gis',
+    
+    'property_sales.apps.PropertySalesConfig',
     'repair_shops.apps.RepairShopsConfig',
 ]
 
@@ -66,7 +68,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': os.environ.get('API_DB_NAME'),
         'USER': os.environ.get('API_DB_USER'),
         'PASSWORD': os.environ.get('API_DB_PASSWORD'),
@@ -116,3 +118,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal304.dll'
