@@ -1,7 +1,7 @@
 from django.urls import path
-from repair_shops.views import build_automobile_dataframe
+from repair_shops.views import build_automobile_data
 
 app_name = 'repair_shop'
 urlpatterns = [
-    path('populate-repair-shop/<int:segment>/', build_automobile_dataframe, name='populate_repair_shop'),
+    path('populate-repair-shop/<int:segment>/', build_automobile_data, name='populate_repair_shop'),
 ]

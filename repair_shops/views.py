@@ -4,8 +4,9 @@ from django.contrib.gis.geos import Point
 from core.utils import process_automobile_data
 from repair_shops.models import AutomobileRepairShop
 
+
 @admin_only
-def build_automobile_dataframe(request, segment):
+def build_automobile_data(request, segment):
     shops = process_automobile_data(segment)
     for shop in shops:
         geo_type = shop.get('geo_type', None)
