@@ -12,6 +12,7 @@ class SalesRecord(models.Model):
         SINGLE_FAMILY = 'Single Family', _('Single Family')
         CONDO = 'Condo', _('Condo')
     
+    sales_number = models.CharField(_('sales identifier'), max_length=50, blank=True, null=True)
     serial_number = models.CharField(_('serial number'), max_length=20, blank=True, null=True)
     list_year = models.CharField(_('year of sale'), max_length=10, blank=True, null=True)
     date_recorded = models.DateTimeField(_('timestamp of sale'), blank=True, null=True)
