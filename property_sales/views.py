@@ -1,9 +1,17 @@
+import os
 import json
 from django.shortcuts import render
 from core.decorators import admin_only
 from property_sales.models import SalesRecord
 from django.contrib.gis.geos import GEOSGeometry
 from core.utils import process_property_sales_data
+
+
+@admin_only
+def generate_page_numbers(request):
+    file_names = os.listdir('raw-data/csv/property/')
+    page_count = list(range(1, len(file_names) + 1))
+    return render(request, 'property_sales/index.html', {'page_count': page_count})
 
 
 @admin_only

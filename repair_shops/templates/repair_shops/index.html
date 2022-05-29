@@ -7,6 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    List of pages
+    <h1>Pages</h1>
+    <div>
+        <ul>
+            {% for page in page_count %}
+            <li><a href="{% url 'repair_shop:populate_repair_shop' page %}">Page {{ page }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
 </body>
 </html>

@@ -1,8 +1,16 @@
+import os
 from django.shortcuts import render
 from core.decorators import admin_only
 from django.contrib.gis.geos import Point
 from core.utils import process_automobile_data
 from repair_shops.models import AutomobileRepairShop
+
+
+@admin_only
+def generate_page_numbers(request):
+    file_names = os.listdir('raw-data/csv/automobile/')
+    page_count = list(range(1, len(file_names) + 1))
+    return render(request, 'repair_shops/index.html', {'page_count': page_count})
 
 
 @admin_only
