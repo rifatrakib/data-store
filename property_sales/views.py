@@ -1,11 +1,14 @@
 import os
 import json
 import pandas as pd
-from django.shortcuts import render
+from datetime import datetime
+from django.core import serializers
+from django.http import JsonResponse
 from core.decorators import admin_only
 from property_sales.models import SalesRecord
 from django.contrib.gis.geos import GEOSGeometry
 from core.utils import process_property_sales_data
+from django.shortcuts import render, get_object_or_404
 
 
 @admin_only
@@ -41,3 +44,19 @@ def build_property_sales_data(request, segment):
             item.date_recorded = str(record.get('date_recorded', None))
         item.save()
     return render(request, 'property_sales/sales-adminer.html')
+
+
+def get_property_sales_as_json(request, sales_id):
+    sales_record = SalesRecord.objects.filter(pk=sales_id)
+    data = json.loads(serializers.serialize('geojson', sales_record))
+    response = {
+        'source': request.build_absolute_uri(),
+        'headers': dict(request.headers),
+        'api': 'public',
+        'identifier': sales_id,
+        'success': True,
+        'data': data,
+        'format': 'text/json',
+        'timestamp': str(datetime.utcnow()) + ' UTC',
+    }
+    return JsonResponse(response)
