@@ -1,5 +1,5 @@
 import json
-from django.http import HttpResponse
+from django.shortcuts import render
 from core.decorators import admin_only
 from property_sales.models import SalesRecord
 from django.contrib.gis.geos import GEOSGeometry
@@ -12,7 +12,7 @@ def build_property_sales_data(request, segment):
     for record in records:
         geo_coordinates = record.get('geo_coordinates', None)
         point_data = GEOSGeometry(json.dumps(geo_coordinates)) if type(geo_coordinates) == dict else None
-        item = SalesRecord(
+        SalesRecord.objects.create(
             sales_number=record.get('sales_number', None),
             serial_number=record.get('serial_number', None),
             list_year=record.get('list_year', None),
@@ -29,5 +29,4 @@ def build_property_sales_data(request, segment):
             opm_remarks=record.get('opm_remarks', None),
             location=point_data,
         )
-        print(item)
-    return HttpResponse('Yay!')
+    return render(request, 'property_sales/sales-adminer.html')

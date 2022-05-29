@@ -25,4 +25,4 @@ def build_automobile_data(request, segment):
             license_expiration=shop.get('license_expiration', None),
             location=point_data,
         )
-    return render(request, 'repair_shops/index.html')
+    return render(request, 'repair_shops/shop-adminer.html')
