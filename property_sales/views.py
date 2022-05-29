@@ -1,5 +1,6 @@
 import os
 import json
+import pandas as pd
 from django.shortcuts import render
 from core.decorators import admin_only
 from property_sales.models import SalesRecord
@@ -20,11 +21,10 @@ def build_property_sales_data(request, segment):
     for record in records:
         geo_coordinates = record.get('geo_coordinates', None)
         point_data = GEOSGeometry(json.dumps(geo_coordinates)) if type(geo_coordinates) == dict else None
-        SalesRecord.objects.create(
+        item = SalesRecord(
             sales_number=record.get('sales_number', None),
             serial_number=record.get('serial_number', None),
             list_year=record.get('list_year', None),
-            date_recorded=record.get('date_recorded', None),
             town=record.get('town', None),
             address=record.get('address', None),
             assessed_value=record.get('assessed_value', None),
@@ -37,4 +37,7 @@ def build_property_sales_data(request, segment):
             opm_remarks=record.get('opm_remarks', None),
             location=point_data,
         )
+        if pd.notna(record.get('date_recorded')):
+            item.date_recorded = str(record.get('date_recorded', None))
+        item.save()
     return render(request, 'property_sales/sales-adminer.html')
