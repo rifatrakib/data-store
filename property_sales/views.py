@@ -65,5 +65,4 @@ def get_property_sales_as_json(request, sales_id):
 def get_property_sales_as_xml(request, sales_id):
     sales_record = SalesRecord.objects.filter(pk=sales_id)
     data = serializers.serialize('xml', sales_record)
-    print(type(data))
     return HttpResponse(data)

@@ -1,8 +1,12 @@
 import os
+import json
+from datetime import datetime
 from django.shortcuts import render
+from django.core import serializers
 from core.decorators import admin_only
 from django.contrib.gis.geos import Point
 from core.utils import process_automobile_data
+from django.http import HttpResponse, JsonResponse
 from repair_shops.models import AutomobileRepairShop
 
 
@@ -34,3 +38,25 @@ def build_automobile_data(request, segment):
             location=point_data,
         )
     return render(request, 'repair_shops/shop-adminer.html')
+
+
+def get_repair_shops_as_json(request, shop_id):
+    shop_record = AutomobileRepairShop.objects.filter(pk=shop_id)
+    data = json.loads(serializers.serialize('geojson', shop_record))
+    response = {
+        'source': request.build_absolute_uri(),
+        'headers': dict(request.headers),
+        'api': 'public',
+        'identifier': shop_id,
+        'success': True,
+        'data': data,
+        'format': 'text/json',
+        'timestamp': str(datetime.utcnow()) + ' UTC',
+    }
+    return JsonResponse(response)
+
+
+def get_repair_shops_as_xml(request, shop_id):
+    shop_record = AutomobileRepairShop.objects.filter(pk=shop_id)
+    data = serializers.serialize('xml', shop_record)
+    return HttpResponse(data)
