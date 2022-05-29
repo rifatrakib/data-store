@@ -3,11 +3,11 @@ import json
 import pandas as pd
 from datetime import datetime
 from django.core import serializers
-from django.http import JsonResponse
 from core.decorators import admin_only
 from property_sales.models import SalesRecord
 from django.contrib.gis.geos import GEOSGeometry
 from core.utils import process_property_sales_data
+from django.http import JsonResponse, HttpResponse
 from django.shortcuts import render, get_object_or_404
 
 
@@ -60,3 +60,10 @@ def get_property_sales_as_json(request, sales_id):
         'timestamp': str(datetime.utcnow()) + ' UTC',
     }
     return JsonResponse(response)
+
+
+def get_property_sales_as_xml(request, sales_id):
+    sales_record = SalesRecord.objects.filter(pk=sales_id)
+    data = serializers.serialize('xml', sales_record)
+    print(type(data))
+    return HttpResponse(data)
