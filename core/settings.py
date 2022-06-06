@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     
     'property_sales.apps.PropertySalesConfig',
     'repair_shops.apps.RepairShopsConfig',
+    'businesses.apps.BusinessesConfig',
 ]
 
 MIDDLEWARE = [
