@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import json
 
 
@@ -60,7 +61,7 @@ def process_small_business_data(segment_number):
         'country_formation': 'str',
         'created_on': 'str',
         'date_of_organization_meeting': 'str',
-        'disable_person_owned_organization': 'bool',
+        'disable_person_owned_organization': 'boolean',
         'dissolution_date': 'str',
         'formation_place': 'str',
         'id': 'str',
@@ -74,7 +75,7 @@ def process_small_business_data(segment_number):
         'mailing_jurisdiction_business_street': 'str',
         'mailing_jurisdiction_business_unit': 'str',
         'mailing_jurisdiction_business_zip_code': 'str',
-        'minority_owned_organization': 'bool',
+        'minority_owned_organization': 'boolean',
         'naics_code': 'str',
         'naics_sub_code': 'str',
         'name': 'str',
@@ -98,8 +99,8 @@ def process_small_business_data(segment_number):
         'status': 'str',
         'sub_status': 'str',
         'total_authorized_shares': 'Int64',
-        'veteran_owned_organization': 'bool',
-        'woman_owned_organization': 'bool',
+        'veteran_owned_organization': 'boolean',
+        'woman_owned_organization': 'boolean',
     }
     
     date_fields = [
@@ -109,4 +110,5 @@ def process_small_business_data(segment_number):
     
     df = pd.read_csv(directory, sep='|', dtype=dtypes, parse_dates=date_fields)
     df = df.rename(columns={'id': 'business_identifier'}).drop(columns=['Unnamed: 0'])
+    df = df.replace({np.nan: None, pd.NA: None})
     return df.to_dict(orient='records')
