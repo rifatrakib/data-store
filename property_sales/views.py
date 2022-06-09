@@ -8,7 +8,7 @@ from property_sales.models import SalesRecord
 from django.contrib.gis.geos import GEOSGeometry
 from core.utils import process_property_sales_data
 from django.http import JsonResponse, HttpResponse
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render
 
 
 @admin_only
