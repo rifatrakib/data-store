@@ -1,18 +1,22 @@
 import os
+import json
+from datetime import datetime
+from django.core import serializers
 from django.shortcuts import render
 from core.decorators import admin_only
 from businesses.models import SmallBusiness
+from django.http import JsonResponse, HttpResponse
 from core.utils import process_small_business_data
 
 
-# @admin_only
+@admin_only
 def generate_page_numbers(request):
     file_names = os.listdir('raw-data/csv/business')
     page_count = list(range(1, len(file_names) + 1))
     return render(request, 'businesses/index.html', {'page_count': page_count})
 
 
-# @admin_only
+@admin_only
 def build_small_business_data(request, segment):
     records = process_small_business_data(segment)
     for record in records:
@@ -76,3 +80,25 @@ def build_small_business_data(request, segment):
             woman_owned_organization=record.get('woman_owned_organization', None),
         )
     return render(request, 'businesses/small-business-adminer.html')
+
+
+def get_small_business_as_json(request, business_id):
+    business_record = SmallBusiness.objects.filter(pk=business_id)
+    data = json.loads(serializers.serialize('json', business_record))
+    response = {
+        'source': request.build_absolute_uri(),
+        'headers': dict(request.headers),
+        'api': 'public',
+        'identifier': business_id,
+        'success': True,
+        'data': data,
+        'format': 'text/json',
+        'timestamp': str(datetime.utcnow()) + ' UTC',
+    }
+    return JsonResponse(response)
+
+
+def get_repair_shops_as_xml(request, business_id):
+    business_record = SmallBusiness.objects.filter(pk=business_id)
+    data = serializers.serialize('xml', business_record)
+    return HttpResponse(data)
