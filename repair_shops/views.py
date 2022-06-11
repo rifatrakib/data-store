@@ -40,6 +40,13 @@ def build_automobile_data(request, segment):
     return render(request, 'repair_shops/shop-adminer.html')
 
 
+def get_repair_shop_page(request, page=1):
+    start, end = (page-1) * 100, page * 100
+    shops = AutomobileRepairShop.objects.all().order_by('id')[start:end]
+    total_pages = AutomobileRepairShop.objects.all().count() // 100
+    return render(request, 'repair_shops/shops.html', {'shops': shops, 'total_pages': range(1, total_pages+1)})
+
+
 def get_repair_shops_as_json(request, shop_id):
     shop_record = AutomobileRepairShop.objects.filter(pk=shop_id)
     data = json.loads(serializers.serialize('geojson', shop_record))

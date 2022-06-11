@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for shop in shops %}
+    <div>
+        <h3>{{ shop.business_name }}</h3>
+        <p>{{ shop.business_address }}, {{ shop.city }}, {{ shop.state }}-{{ shop.zip_code }}</p>
+    </div>
+{% endfor %}
+<div>
+{% for page in total_pages %}
+    <span><a href="{% url 'repair_shop:repair_shop_page' page %}">{{ page }}</a></span>
+{% endfor %}
+</div>
+{% endblock %}
