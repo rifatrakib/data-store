@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for record in records %}
+    <div>
+        <h3>{{ record.address }}, {{ record.list_year }}</h3>
+        <p>Estimated Value: {{ record.assessed_value }}, Price: {{ record.sales_amount }}</p>
+    </div>
+{% endfor %}
+<div>
+{% for page in total_pages %}
+    <span><a href="{% url 'property_sales:property_sales_page' page %}">{{ page }}</a></span>
+{% endfor %}
+</div>
+{% endblock %}

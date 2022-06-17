@@ -46,6 +46,13 @@ def build_property_sales_data(request, segment):
     return render(request, 'property_sales/sales-adminer.html')
 
 
+def get_property_sales_page(request, page=1):
+    start, end = (page-1) * 100, page * 100
+    records = SalesRecord.objects.all().order_by('id')[start:end]
+    total_pages = SalesRecord.objects.all().count() // 100
+    return render(request, 'property_sales/sales.html', {'records': records, 'total_pages': range(1, total_pages+1)})
+
+
 def get_property_sales_as_json(request, sales_id):
     sales_record = SalesRecord.objects.filter(pk=sales_id)
     data = json.loads(serializers.serialize('geojson', sales_record))
