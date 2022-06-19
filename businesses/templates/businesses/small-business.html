@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for record in records %}
+    <div>
+        <h3>{{ record.name }}</h3>
+        <p>{{ record.business_street }}, {{ record.business_city }}, {{ record.business_state }}-{{ record.business_zip_code }}</p>
+        <p>{{ record.business_country }}</p>
+        <p><a href="mailto:{{ record.business_email_address }}">{{ record.business_email_address }}</a></p>
+    </div>
+{% endfor %}
+<div>
+{% for page in total_pages %}
+    <span><a href="{% url 'businesses:small_business_page' page %}">{{ page }}</a></span>
+{% endfor %}
+</div>
+{% endblock %}

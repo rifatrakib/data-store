@@ -82,6 +82,13 @@ def build_small_business_data(request, segment):
     return render(request, 'businesses/small-business-adminer.html')
 
 
+def get_small_business_page(request, page=1):
+    start, end = (page-1) * 100, page * 100
+    records = SmallBusiness.objects.all().order_by('id')[start:end]
+    total_pages = SmallBusiness.objects.all().count() // 100
+    return render(request, 'businesses/small-business.html', {'records': records, 'total_pages': range(1, total_pages+1)})
+
+
 def get_small_business_as_json(request, business_id):
     business_record = SmallBusiness.objects.filter(pk=business_id)
     data = json.loads(serializers.serialize('json', business_record))
