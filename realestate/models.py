@@ -35,8 +35,8 @@ class Property(models.Model):
     antall_addresser = models.IntegerField(_('Number of Addresses'), blank=True, null=True)
     lkoord_sys_nr = models.IntegerField(_('Coordinate System Number'), blank=True, null=True)
     lkoord_sys_navn = models.CharField(_('Coordinate System Name'), max_length=25, blank=True, null=True)
-    lkooelokx = models.DecimalField(_('UTM X coordinate'), max_digits=30, decimal_places=10)
-    lkooeloky = models.DecimalField(_('UTM Y coordinate'), max_digits=30, decimal_places=10)
+    lkooelokx = models.DecimalField(_('UTM X coordinate'), max_digits=30, decimal_places=10, blank=True, null=True)
+    lkooeloky = models.DecimalField(_('UTM Y coordinate'), max_digits=30, decimal_places=10, blank=True, null=True)
     
     def __str__(self):
         return self.bruksnavn
