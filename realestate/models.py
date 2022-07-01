@@ -16,7 +16,7 @@ class Property(models.Model):
     area = models.DecimalField(_('Property Area'), max_digits=15, decimal_places=4)
     arealkilde_nr = models.IntegerField(_('Source Number'), blank=True, null=True)
     arealkilde_navn = models.CharField(_('Source Name'), max_length=50, blank=True, null=True)
-    natrings_kode = models.CharField(_('Industry Code'), blank=True, null=True)
+    natrings_kode = models.CharField(_('Industry Code'), max_length=50, blank=True, null=True)
     natrings_kode_navn = models.CharField(_('Industry Code Name'), max_length=50, blank=True, null=True)
     tinglyst = models.BooleanField(_('Written Contract Exists'), blank=True, null=True)
     omsetnings_dato = models.IntegerField(_('Turnover Date'), blank=True, null=True)
