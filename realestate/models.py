@@ -7,6 +7,7 @@ class Property(models.Model):
     county_number = models.IntegerField(_('County Number'), blank=True, null=True)
     county_name = models.CharField(_('County Name'), max_length=50, blank=True, null=True)
     city_number = models.IntegerField(_('City Name'), blank=True, null=True)
+    city_name = models.CharField(_('City Name'), max_length=100, blank=True, null=True)
     gnr = models.IntegerField(_('Cadastral Unit Number'), blank=True, null=True)
     bnr = models.IntegerField(_('Property Unit Number'), blank=True, null=True)
     fnr = models.IntegerField(_('Lease Number'), blank=True, null=True)
