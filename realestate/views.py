@@ -2,8 +2,8 @@ import json
 from datetime import datetime
 from django.shortcuts import render
 from django.core import serializers
-from django.http import JsonResponse
 from realestate.models import Property, Building
+from django.http import HttpResponse, JsonResponse
 
 
 def get_property_as_json(request, property_id):
@@ -36,3 +36,15 @@ def get_building_as_json(request, building_id):
         'timestamp': str(datetime.utcnow()) + ' UTC',
     }
     return JsonResponse(response)
+
+
+def get_property_as_xml(request, property_id):
+    property_record = Property.objects.filter(pk=property_id)
+    data = serializers.serialize('xml', property_record)
+    return HttpResponse(data)
+
+
+def get_building_as_xml(request, building_id):
+    building_record = Building.objects.filter(pk=building_id)
+    data = serializers.serialize('xml', building_record)
+    return HttpResponse(data)
