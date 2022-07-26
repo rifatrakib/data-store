@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for property in properties %}
+    <div>
+        <h3>{{ property.bruksnavn }}</h3>
+        <p>{{ property.kjopesum }} NOK, {{ property.city_name }}, {{ property.county_name }}</p>
+    </div>
+{% endfor %}
+<div>
+{% for page in total_pages %}
+    <span><a href="{% url 'realestate:property_page' page %}">{{ page }}</a></span>
+{% endfor %}
+</div>
+{% endblock %}
