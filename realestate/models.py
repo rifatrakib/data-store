@@ -43,6 +43,31 @@ class Property(models.Model):
         return self.bruksnavn
 
 
+class PropertyAddress(models.Model):
+    property_number = models.IntegerField(_('Property Number'), blank=True, null=True)
+    city_number = models.IntegerField(_('City Name'), blank=True, null=True)
+    city_name = models.CharField(_('City Name'), max_length=100, blank=True, null=True)
+    gnr = models.IntegerField(_('Cadastral Unit Number'), blank=True, null=True)
+    bnr = models.IntegerField(_('Property Unit Number'), blank=True, null=True)
+    fnr = models.IntegerField(_('Lease Number'), blank=True, null=True)
+    snr = models.IntegerField(_('Unit Number'), blank=True, null=True)
+    eiendomstype_kode = models.IntegerField(_('Property Type Code'), blank=True, null=True)
+    eiendomstype_navn = models.CharField(_('Property Type'), max_length=30, blank=True, null=True)
+    areal = models.DecimalField(_('Property Area'), max_digits=15, decimal_places=4, blank=True, null=True)
+    bruksnavn = models.CharField(_('Subfarm Name'), max_length=100, blank=True, null=True)
+    adresse_id = models.IntegerField(_('Address ID'), blank=True, null=True)
+    gatenavn = models.CharField(_('Gate Name'), max_length=200, blank=True, null=True)
+    gatenavnkode = models.IntegerField(_('Gate Number'), blank=True, null=True)
+    husnummer = models.IntegerField(_('Number of Houses'), blank=True, null=True)
+    bokstav = models.CharField(_('Letter'), max_length=5, blank=True, null=True)
+    undernummer = models.IntegerField(_('Number of Subunits'), blank=True, null=True)
+    post_nr = models.IntegerField(_('Postal Code'), blank=True, null=True)
+    poststed = models.CharField(_('Postal Location'), max_length=100, blank=True, null=True)
+    
+    def __str__(self):
+        return self.bruksnavn
+
+
 class Building(models.Model):
     building_id = models.IntegerField(_('Building ID'), blank=True, null=True)
     county_number = models.IntegerField(_('County Number'), blank=True, null=True)
