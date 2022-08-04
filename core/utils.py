@@ -112,3 +112,51 @@ def process_small_business_data(segment_number):
     df = df.rename(columns={'id': 'business_identifier'}).drop(columns=['Unnamed: 0'])
     df = df.replace({np.nan: None, pd.NA: None})
     return df.to_dict(orient='records')
+
+
+def process_eiendom_data(segment_number):
+    start = (segment_number - 1) * 10000
+    end = segment_number * 10000
+    directory = f'raw-data/csv/eiendom/eiendom-{start}-{end}.csv'
+    
+    dtypes = {
+        'property_number': 'Int64',
+        'county_number': 'Int64',
+        'county_name': 'str',
+        'city_number': 'Int64',
+        'city_name': 'str',
+        'gnr': 'Int64',
+        'bnr': 'Int64',
+        'fnr': 'Int64',
+        'snr': 'Int64',
+        'bruksnavn': 'str',
+        'antall_teiger': 'Int64',
+        'area': 'float64',
+        'arealkilde_nr': 'Int64',
+        'arealkilde_navn': 'str',
+        'natrings_kode': 'str',
+        'natrings_kode_navn': 'str',
+        'tinglyst': 'boolean',
+        'omsetnings_dato': 'Int64',
+        'kjopesum': 'float64',
+        'omsetningstype_kode': 'str',
+        'omsetningstype_navn': 'str',
+        'sameie_teller': 'Int64',
+        'sameie_nevner': 'Int64',
+        'etablert_dato': 'Int64',
+        'etablert_aar': 'Int64',
+        'eiendomstype_kode': 'Int64',
+        'eiendomstype_navn': 'str',
+        'bygning_paa_eiendom': 'boolean',
+        'bygning_paa_eiendom_navn': 'Int64',
+        'antall_bygninger': 'Int64',
+        'antall_addresser': 'Int64',
+        'lkoord_sys_nr': 'Int64',
+        'lkoord_sys_navn': 'str',
+        'lkooelokx': 'float64',
+        'lkooeloky': 'float64',
+    }
+    
+    df = pd.read_csv(directory, dtype=dtypes).drop(columns=['Unnamed: 0'])
+    df = df.replace({np.nan: None, pd.NA: None})
+    return df.to_dict(orient='records')
