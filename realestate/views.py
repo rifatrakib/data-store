@@ -1,9 +1,19 @@
+import os
 import json
 from datetime import datetime
 from django.shortcuts import render
 from django.core import serializers
+from core.decorators import admin_only
 from realestate.models import Property, Building
 from django.http import HttpResponse, JsonResponse
+
+
+# template need to be written
+@admin_only
+def generate_page_numbers(request):
+    file_names = os.listdir('raw-data/csv/eiendom/')
+    page_count = list(range(1, len(file_names) + 1))
+    return render(request, 'realestate/index.html', {'page_count': page_count})
 
 
 # not tested yet
