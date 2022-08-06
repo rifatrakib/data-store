@@ -3,6 +3,9 @@ from realestate.views import *
 
 app_name = 'realestate'
 urlpatterns = [
+    # admin only links
+    path('realestate/property/', get_property_page, name='repair_shop_page'),
+    
     # property links
     path('realestate/property/<int:property_id>/json/', get_property_as_json, name='property_json'),
     path('realestate/property/<int:property_id>/xml/', get_property_as_xml, name='property_xml'),
