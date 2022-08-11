@@ -14,7 +14,7 @@ class Property(models.Model):
     snr = models.IntegerField(_('Unit Number'), blank=True, null=True)
     bruksnavn = models.CharField(_('Subfarm Name'), max_length=100, blank=True, null=True)
     antall_teiger = models.IntegerField(_('Number of plots'), blank=True, null=True)
-    area = models.DecimalField(_('Property Area'), max_digits=15, decimal_places=4, blank=True, null=True)
+    areal = models.DecimalField(_('Property Area'), max_digits=15, decimal_places=4, blank=True, null=True)
     arealkilde_nr = models.IntegerField(_('Source Number'), blank=True, null=True)
     arealkilde_navn = models.CharField(_('Source Name'), max_length=50, blank=True, null=True)
     natrings_kode = models.CharField(_('Industry Code'), max_length=50, blank=True, null=True)
