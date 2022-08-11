@@ -33,7 +33,7 @@ class Property(models.Model):
     bygning_paa_eiendom = models.CharField(_('Building on Property'), max_length=50, blank=True, null=True)
     bygning_paa_eiendom_navn = models.CharField(_('Building on Property Name'), max_length=200, blank=True, null=True)
     antall_bygninger = models.IntegerField(_('Number of Buildings'), blank=True, null=True)
-    antall_addresser = models.IntegerField(_('Number of Addresses'), blank=True, null=True)
+    antall_adresser = models.IntegerField(_('Number of Addresses'), blank=True, null=True)
     lkoord_sys_nr = models.IntegerField(_('Coordinate System Number'), blank=True, null=True)
     lkoord_sys_navn = models.CharField(_('Coordinate System Name'), max_length=25, blank=True, null=True)
     lkooelokx = models.DecimalField(_('UTM X coordinate'), max_digits=30, decimal_places=10, blank=True, null=True)
