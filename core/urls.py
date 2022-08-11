@@ -8,4 +8,5 @@ urlpatterns = [
     path('automobile/', include('repair_shops.urls')),
     path('property-sales/', include('property_sales.urls')),
     path('business/', include('businesses.urls')),
+    path('real-estate/', include('realestate.urls')),
 ]

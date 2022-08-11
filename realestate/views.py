@@ -8,12 +8,16 @@ from realestate.models import Property, Building
 from django.http import HttpResponse, JsonResponse
 
 
-# template need to be written
 @admin_only
-def generate_page_numbers(request):
+def generate_property_page_numbers(request):
     file_names = os.listdir('raw-data/csv/eiendom/')
     page_count = list(range(1, len(file_names) + 1))
-    return render(request, 'realestate/index.html', {'page_count': page_count})
+    return render(request, 'realestate/admin-property.html', {'page_count': page_count})
+
+
+@admin_only
+def build_property_data(request, segment):
+    return 'demo'
 
 
 # not tested yet
