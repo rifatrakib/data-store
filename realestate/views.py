@@ -4,6 +4,7 @@ from datetime import datetime
 from django.shortcuts import render
 from django.core import serializers
 from core.decorators import admin_only
+from core.utils import process_eiendom_data
 from realestate.models import Property, Building
 from django.http import HttpResponse, JsonResponse
 
@@ -17,10 +18,13 @@ def generate_property_page_numbers(request):
 
 @admin_only
 def build_property_data(request, segment):
-    return 'demo'
+    properties = process_eiendom_data(segment)
+    print(len(properties))
+    for property in properties:
+        Property.objects.create(**property)
+    return render(request, 'realestate/property-adminer.html')
 
 
-# not tested yet
 def get_property_page(request, page=1):
     start, end = (page-1) * 100, page * 100
     properties = Property.objects.all().order_by('id')[start:end]
