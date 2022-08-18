@@ -167,3 +167,40 @@ def process_eiendom_data(segment_number):
         'kommune_navn': 'city_name',
     })
     return df.to_dict(orient='records')
+
+
+def process_eiendom_adr_data(segment_number):
+    start = (segment_number - 1) * 10000
+    end = segment_number * 10000
+    directory = f'raw-data/csv/eiendom/eiendom_adr-{start}-{end}.csv'
+    
+    dtypes = {
+        'EIENDOM_ID': 'Int64',
+        'KOMMUNE_NR': 'Int64',
+        'KOMMUNE_NAVN': 'str',
+        'GNR': 'Int64',
+        'BNR': 'Int64',
+        'FNR': 'Int64',
+        'SNR': 'Int64',
+        'EIENDOMSTYPE_KODE': 'Int64',
+        'EIENDOMSTYPE_NAVN': 'str',
+        'AREAL': 'float64',
+        'BRUKSNAVN': 'str',
+        'ADRESSE_ID': 'Int64',
+        'GATENAVN': 'str',
+        'GATENAVNKODE': 'Int64',
+        'HUSNUMMER': 'Int64',
+        'BOKSTAV': 'str',
+        'UNDERNUMMER': 'Int64',
+        'POST_NR': 'Int64',
+        'POSTSTED': 'str',
+    }
+    
+    df = pd.read_csv(directory, dtype=dtypes).drop(columns=['Unnamed: 0'])
+    df = df.replace({np.nan: None, pd.NA: None})
+    df = df.rename(columns=str.lower).rename(columns={
+        'eiendom_id': 'property_number',
+        'kommune_nr': 'city_number',
+        'kommune_navn': 'city_name',
+    })
+    return df.to_dict(orient='records')
