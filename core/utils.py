@@ -204,3 +204,59 @@ def process_eiendom_adr_data(segment_number):
         'kommune_navn': 'city_name',
     })
     return df.to_dict(orient='records')
+
+
+def process_bygg_data(segment_number):
+    start = (segment_number - 1) * 10000
+    end = segment_number * 10000
+    directory = f'raw-data/csv/bygg/bygg-{start}-{end}.csv'
+    
+    dtypes = {
+        'BYGNING_ID': 'Int64',
+        'FYLKES_NR': 'Int64',
+        'FYLKES_NAVN': 'str',
+        'KOMMUNE_NR': 'Int64',
+        'KOMMUNE_NAVN': 'str',
+        'BYGNINGS_NR': 'Int64',
+        'BYGNING_LNR': 'Int64',
+        'BYGNINGSTYPE_NR': 'Int64',
+        'BYGNINGSTYPE_NAVN': 'str',
+        'BYGNINGSSTATUS_NR': 'str',
+        'BYGNINGSSTATUS_NAVN': 'str',
+        'GODKJENT_DATO': 'Int64',
+        'IGANGSATT_DATO': 'Int64',
+        'TATT_I_BRUK_DATO': 'Int64',
+        'NAERINGSGRUPPE_KODE': 'str',
+        'NAERINGSGRUPPE_NAVN': 'str',
+        'PAABYGG_TILBYGG_KODE': 'str',
+        'PAABYGG_TILBYGG_NAVN': 'str',
+        'VANNFORSYNING_NR': 'Int64',
+        'VANNFORSYNING_NAVN': 'str',
+        'BRUKSAREAL_TOTALT': 'float64',
+        'BRUKSAREAL_BOLIG': 'float64',
+        'BRUKSAREAL_ANNET_BOLIG': 'float64',
+        'ANTALL_ETASJER': 'Int64',
+        'ANTALL_BOLIGER': 'Int64',
+        'LKOORDINATSYSTEM_NR': 'Int64',
+        'LKOORDINATSYSTEM_NAVN': 'str',
+        'LKOORDINAT_KVALITET_KODE': 'str',
+        'LKOORDINAT_KVALITET_NAVN': 'str',
+        'LX_KOORDINAT': 'float64',
+        'LY_KOORDINAT': 'float64',
+        'LZ_KOORDINAT': 'float64',
+        'EIENDOM_ANTALL': 'Int64',
+        'HAR_HEIS': 'boolean',
+        'BEBYGD_AREAL': 'float64',
+    }
+    
+    df = pd.read_csv(directory, dtype=dtypes, na_values={'LKOORDINAT_KVALITET_KODE': '--'}).drop(columns=['Unnamed: 0'])
+    df = df.replace({np.nan: None, pd.NA: None})
+    df = df.rename(columns=str.lower).rename(columns={
+        'bygning_id': 'building_id',
+        'fylkes_nr': 'county_number',
+        'fylkes_navn': 'county_name',
+        'kommune_nr': 'city_number',
+        'kommune_navn': 'city_name',
+        'bygnings_nr': 'building_number',
+    })
+    return df.to_dict(orient='records')
