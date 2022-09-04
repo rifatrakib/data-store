@@ -4,8 +4,8 @@ from datetime import datetime
 from django.shortcuts import render
 from django.core import serializers
 from core.decorators import admin_only
-from core.utils import process_eiendom_data, process_bygg_data
-from realestate.models import Property, Building
+from core.utils import process_eiendom_data, process_eiendom_adr_data, process_bygg_data
+from realestate.models import Property, PropertyAddress, Building
 from django.http import HttpResponse, JsonResponse
 
 
@@ -22,6 +22,13 @@ def build_property_data(request, segment):
     for property in properties:
         Property.objects.create(**property)
     return render(request, 'realestate/property-adminer.html')
+
+
+@admin_only
+def generate_property_address_page_numbers(request):
+    file_names = os.listdir('raw-data/csv/eiendom_adr/')
+    page_count = list(range(1, len(file_names) + 1))
+    return render(request, 'realestate/admin-property-address.html', {'page_count': page_count})
 
 
 @admin_only
