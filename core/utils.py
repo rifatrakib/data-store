@@ -172,7 +172,7 @@ def process_eiendom_data(segment_number):
 def process_eiendom_adr_data(segment_number):
     start = (segment_number - 1) * 10000
     end = segment_number * 10000
-    directory = f'raw-data/csv/eiendom/eiendom_adr-{start}-{end}.csv'
+    directory = f'raw-data/csv/eiendom_adr/eiendom_adr-{start}-{end}.csv'
     
     dtypes = {
         'EIENDOM_ID': 'Int64',
