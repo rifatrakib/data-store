@@ -32,6 +32,11 @@ def generate_property_address_page_numbers(request):
 
 
 @admin_only
+def build_property_address_data(request, segment):
+    pass
+
+
+@admin_only
 def generate_building_page_numbers(request):
     file_names = os.listdir('raw-data/csv/bygg/')
     page_count = list(range(1, len(file_names) + 1))
