@@ -33,7 +33,10 @@ def generate_property_address_page_numbers(request):
 
 @admin_only
 def build_property_address_data(request, segment):
-    pass
+    property_addresses = process_eiendom_adr_data(segment)
+    for address in property_addresses:
+        PropertyAddress.objects.create(**address)
+    return render(request, 'realestate/property-address-adminer.html')
 
 
 @admin_only

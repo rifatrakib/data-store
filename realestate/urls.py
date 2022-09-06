@@ -9,6 +9,7 @@ urlpatterns = [
     
     # admin only links - property address
     path('realestate/populate-property-address/', generate_property_address_page_numbers, name='property_address_admin_home'),
+    path('realestate/populate-property-address/<int:segment>/', build_property_address_data, name='populate_property_address'),
     
     # admin only links - building
     path('realestate/populate-building/', generate_building_page_numbers, name='building_admin_home'),
