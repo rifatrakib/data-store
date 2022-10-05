@@ -260,3 +260,43 @@ def process_bygg_data(segment_number):
         'bygnings_nr': 'building_number',
     })
     return df.to_dict(orient='records')
+
+
+def process_eiendom_adr_data(segment_number):
+    start = (segment_number - 1) * 10000
+    end = segment_number * 10000
+    directory = f'raw-data/csv/bygg_adresse/bygg_adresse-{start}-{end}.csv'
+    
+    dtypes = {
+        'KOMMUNE_NR': 'Int64',
+        'KOMMUNE_NAVN': 'str',
+        'BYGNINGS_NR': 'Int64',
+        'BYGNING_LNR': 'Int64',
+        'BYGNINGSTYPE_NR': 'Int64',
+        'BYGNINGSTYPE_NAVN': 'str',
+        'BYGNINGSSTATUS_NR': 'str',
+        'BYGNINGSSTATUS_NAVN': 'str',
+        'GODKJENT_DATO': 'Int64',
+        'IGANGSATT_DATO': 'Int64',
+        'TATT_I_BRUK_DATO': 'Int64',
+        'BRUKSAREAL_TOTALT': 'float64',
+        'KOMMUNE_NR_ADR': 'Int64',
+        'KOMMUNE_NAVN_ADR': 'str',
+        'ADRESSE_ID': 'Int64',
+        'GATENAVN': 'str',
+        'GATENAVNKODE': 'Int64',
+        'HUSNUMMER': 'Int64',
+        'BOKSTAV': 'str',
+        'UNDERNUMMER': 'Int64',
+        'POST_NR': 'Int64',
+        'POSTSTED': 'str',
+    }
+    
+    df = pd.read_csv(directory, dtype=dtypes).drop(columns=['Unnamed: 0'])
+    df = df.replace({np.nan: None, pd.NA: None})
+    df = df.rename(columns=str.lower).rename(columns={
+        'bygnings_nr': 'building_number',
+        'kommune_nr': 'city_number',
+        'kommune_navn': 'city_name',
+    })
+    return df.to_dict(orient='records')
