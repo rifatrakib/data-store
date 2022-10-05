@@ -107,3 +107,31 @@ class Building(models.Model):
     
     def __str__(self):
         return self.building_number
+
+
+class BuildingAddress(models.Model):
+    building_number = models.DecimalField(_('Building Number'), max_digits=15, decimal_places=0, blank=True, null=True)
+    city_number = models.IntegerField(_('City Name'), blank=True, null=True)
+    city_name = models.CharField(_('City Name'), max_length=100, blank=True, null=True)
+    bygning_lnr = models.DecimalField(_('Building LNR'), max_digits=10, decimal_places=0, blank=True, null=True)
+    bygningstype_nr = models.DecimalField(_('Building Type Number'), max_digits=10, decimal_places=0, blank=True, null=True)
+    bygningstype_navn = models.CharField(_('Building Type Name'), max_length=100, blank=True, null=True)
+    bygningsstatus_nr = models.CharField(_('Building Status Number'), max_length=10, blank=True, null=True)
+    bygningsstatus_navn = models.CharField(_('Building Status Name'), max_length=100, blank=True, null=True)
+    godkjent_dato = models.DecimalField(_('Approved Date'), max_digits=10, decimal_places=0, blank=True, null=True)
+    igangsatt_dato = models.DecimalField(_('Start Date'), max_digits=10, decimal_places=0, blank=True, null=True)
+    tatt_i_bruk_dato = models.DecimalField(_('In Use Date'), max_digits=10, decimal_places=0, blank=True, null=True)
+    bruksareal_totalt = models.DecimalField(_('UFS Total'), max_digits=15, decimal_places=4, blank=True, null=True)
+    kommune_nr_adr = models.IntegerField(_('Kommune Nr Adr'), blank=True, null=True)
+    kommune_navn_adr = models.CharField(_('Kommune Navn Adr'), max_length=100, blank=True, null=True)
+    adresse_id = models.IntegerField(_('Address ID'), blank=True, null=True)
+    gatenavn = models.CharField(_('Gate Name'), max_length=200, blank=True, null=True)
+    gatenavnkode = models.IntegerField(_('Gate Number'), blank=True, null=True)
+    husnummer = models.IntegerField(_('Number of Houses'), blank=True, null=True)
+    bokstav = models.CharField(_('Letter'), max_length=5, blank=True, null=True)
+    undernummer = models.IntegerField(_('Number of Subunits'), blank=True, null=True)
+    post_nr = models.IntegerField(_('Postal Code'), blank=True, null=True)
+    poststed = models.CharField(_('Postal Location'), max_length=100, blank=True, null=True)
+    
+    def __str__(self):
+        return f"{str(self.building_number)} - {self.city_name}"
