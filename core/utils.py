@@ -262,7 +262,7 @@ def process_bygg_data(segment_number):
     return df.to_dict(orient='records')
 
 
-def process_eiendom_adr_data(segment_number):
+def process_bygg_adresse_data(segment_number):
     start = (segment_number - 1) * 10000
     end = segment_number * 10000
     directory = f'raw-data/csv/bygg_adresse/bygg_adresse-{start}-{end}.csv'
