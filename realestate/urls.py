@@ -15,6 +15,10 @@ urlpatterns = [
     path('realestate/populate-building/', generate_building_page_numbers, name='building_admin_home'),
     path('realestate/populate-building/<int:segment>/', build_building_data, name='populate_building'),
     
+    # admin only links - building address
+    path('realestate/populate-building-address/', generate_building_address_page_numbers, name='building_address_admin_home'),
+    path('realestate/populate-building-address/<int:segment>/', build_building_address_data, name='populate_building_address'),
+    
     # property links
     path('realestate/property/<int:property_id>/json/', get_property_as_json, name='property_json'),
     path('realestate/property/<int:property_id>/xml/', get_property_as_xml, name='property_xml'),
