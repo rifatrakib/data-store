@@ -79,12 +79,25 @@ def get_property_page(request, page=1):
     return render(request, 'realestate/properties.html', {'properties': properties, 'total_pages': range(1, total_pages+1)})
 
 
-# not tested yet
+def get_property_address_page(request, page=1):
+    start, end = (page-1) * 100, page * 100
+    property_addresses = PropertyAddress.objects.all().order_by('id')[start:end]
+    total_pages = PropertyAddress.objects.all().count() // 100
+    return render(request, 'realestate/property-addresses.html', {'property_addresses': property_addresses, 'total_pages': range(1, total_pages+1)})
+
+
 def get_building_page(request, page=1):
     start, end = (page-1) * 100, page * 100
     buildings = Building.objects.all().order_by('id')[start:end]
     total_pages = Building.objects.all().count() // 100
     return render(request, 'realestate/buildings.html', {'buildings': buildings, 'total_pages': range(1, total_pages+1)})
+
+
+def get_building_address_page(request, page=1):
+    start, end = (page-1) * 100, page * 100
+    building_addresses = BuildingAddress.objects.all().order_by('id')[start:end]
+    total_pages = BuildingAddress.objects.all().count() // 100
+    return render(request, 'realestate/building-addresses.html', {'building_addresses': building_addresses, 'total_pages': range(1, total_pages+1)})
 
 
 def get_property_as_json(request, property_id):
