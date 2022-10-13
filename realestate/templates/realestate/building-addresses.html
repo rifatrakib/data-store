@@ -8,7 +8,7 @@
 {% endfor %}
 <div>
 {% for page in total_pages %}
-    <span><a href="{% url 'realestate:property_address_page' page %}">{{ page }}</a></span>
+    <span><a href="{% url 'realestate:building_address_page' page %}">{{ page }}</a></span>
 {% endfor %}
 </div>
 {% endblock %}
