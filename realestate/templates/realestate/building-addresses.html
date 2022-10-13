@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for address in building_addresses %}
+    <div>
+        <h3>{{ address.gatenavn }} - {{ address.building_number }}</h3>
+        <p>{{ address.address_id }}, {{ address.city_name }}-{{ address.post_nr }}</p>
+    </div>
+{% endfor %}
+<div>
+{% for page in total_pages %}
+    <span><a href="{% url 'realestate:property_address_page' page %}">{{ page }}</a></span>
+{% endfor %}
+</div>
+{% endblock %}
