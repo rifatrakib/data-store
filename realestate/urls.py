@@ -25,9 +25,16 @@ urlpatterns = [
     path('realestate/property/', get_property_page, name='property_page'),
     path('realestate/property/<int:page>/', get_property_page, name='property_page'),
     
+    # property address links
+    path('realestate/property-address/', get_property_address_page, name="property_address_page"),
+    path('realestate/property-address/<int:page>/', get_property_address_page, name="property_address_page"),
+    
     # building links
     path('realestate/building/<int:building_id>/json/', get_building_as_json, name='building_json'),
     path('realestate/building/<int:building_id>/xml/', get_building_as_xml, name='building_xml'),
     path('realestate/building/', get_building_page, name='building_page'),
     path('realestate/building/<int:page>/', get_building_page, name='building_page'),
+    
+    path('realestate/building-address/', get_building_address_page, name="building_address_page"),
+    path('realestate/building-address/<int:page>/', get_building_address_page, name="building_address_page"),
 ]
