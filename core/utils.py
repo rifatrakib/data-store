@@ -114,189 +114,70 @@ def process_small_business_data(segment_number):
     return df.to_dict(orient='records')
 
 
-def process_eiendom_data(segment_number):
+def process_property_base_data(segment_number):
     start = (segment_number - 1) * 10000
     end = segment_number * 10000
-    directory = f'raw-data/csv/eiendom/eiendom-{start}-{end}.csv'
     
-    dtypes = {
-        'EIENDOM_ID': 'Int64',
-        'FYLKES_NR': 'Int64',
-        'FYLKES_NAVN': 'str',
-        'KOMMUNE_NR': 'Int64',
-        'KOMMUNE_NAVN': 'str',
-        'GNR': 'Int64',
-        'BNR': 'Int64',
-        'FNR': 'Int64',
-        'SNR': 'Int64',
-        'BRUKSNAVN': 'str',
-        'ANTALL_TEIGER': 'Int64',
-        'AREAL': 'float64',
-        'AREALKILDE_NR': 'Int64',
-        'AREALKILDE_NAVN': 'str',
-        'NÆRINGS_KODE': 'str',
-        'NÆRINGS_KODE_NAVN': 'str',
-        'TINGLYST': 'boolean',
-        'OMSETNINGSDATO': 'Int64',
-        'KJOPESUM': 'float64',
-        'OMSETNINGSTYPE_KODE': 'str',
-        'OMSETNINGSTYPE_NAVN': 'str',
-        'SAMEIE_TELLER': 'Int64',
-        'SAMEIE_NEVNER': 'Int64',
-        'ETABLERT_DATO': 'Int64',
-        'ETABLERT_AAR': 'Int64',
-        'EIENDOMSTYPE_KODE': 'Int64',
-        'EIENDOMSTYPE_NAVN': 'str',
-        'BYGNING_PAA_EIENDOM': 'boolean',
-        'BYGNING_PAA_EIENDOM_NAVN': 'Int64',
-        'ANTALL_BYGNINGER': 'Int64',
-        'ANTALL_ADRESSER': 'Int64',
-        'LKOORD_SYS_NR': 'Int64',
-        'LKOORD_SYS_NAVN': 'str',
-        'LKOOELOKX': 'float64',
-        'LKOOELOKY': 'float64',
-    }
+    with open("static/json/property-base.json", "r") as reader:
+        static_data = json.loads(reader.read())
+    
+    dtypes = static_data["dtypes"]
+    column_renames = static_data["renames"]
+    directory = static_data["dir"] + f"-{start}-{end}.csv"
     
     df = pd.read_csv(directory, dtype=dtypes).drop(columns=['Unnamed: 0'])
     df = df.replace({np.nan: None, pd.NA: None})
-    df = df.rename(columns=str.lower).rename(columns={
-        'eiendom_id': 'property_number',
-        'fylkes_nr': 'county_number',
-        'fylkes_navn': 'county_name',
-        'kommune_nr': 'city_number',
-        'kommune_navn': 'city_name',
-    })
+    df = df.rename(columns=str.lower).rename(columns=column_renames)
     return df.to_dict(orient='records')
 
 
-def process_eiendom_adr_data(segment_number):
+def process_property_extension_data(segment_number):
     start = (segment_number - 1) * 10000
     end = segment_number * 10000
-    directory = f'raw-data/csv/eiendom_adr/eiendom_adr-{start}-{end}.csv'
     
-    dtypes = {
-        'EIENDOM_ID': 'Int64',
-        'KOMMUNE_NR': 'Int64',
-        'KOMMUNE_NAVN': 'str',
-        'GNR': 'Int64',
-        'BNR': 'Int64',
-        'FNR': 'Int64',
-        'SNR': 'Int64',
-        'EIENDOMSTYPE_KODE': 'Int64',
-        'EIENDOMSTYPE_NAVN': 'str',
-        'AREAL': 'float64',
-        'BRUKSNAVN': 'str',
-        'ADRESSE_ID': 'Int64',
-        'GATENAVN': 'str',
-        'GATENAVNKODE': 'Int64',
-        'HUSNUMMER': 'Int64',
-        'BOKSTAV': 'str',
-        'UNDERNUMMER': 'Int64',
-        'POST_NR': 'Int64',
-        'POSTSTED': 'str',
-    }
+    with open("static/json/property-extension.json", "r") as reader:
+        static_data = json.loads(reader.read())
+    
+    dtypes = static_data["dtypes"]
+    column_renames = static_data["renames"]
+    directory = static_data["dir"] + f"-{start}-{end}.csv"
     
     df = pd.read_csv(directory, dtype=dtypes).drop(columns=['Unnamed: 0'])
     df = df.replace({np.nan: None, pd.NA: None})
-    df = df.rename(columns=str.lower).rename(columns={
-        'eiendom_id': 'property_number',
-        'kommune_nr': 'city_number',
-        'kommune_navn': 'city_name',
-    })
+    df = df.rename(columns=str.lower).rename(columns=column_renames)
     return df.to_dict(orient='records')
 
 
-def process_bygg_data(segment_number):
+def process_building_base_data(segment_number):
     start = (segment_number - 1) * 10000
     end = segment_number * 10000
-    directory = f'raw-data/csv/bygg/bygg-{start}-{end}.csv'
     
-    dtypes = {
-        'BYGNING_ID': 'Int64',
-        'FYLKES_NR': 'Int64',
-        'FYLKES_NAVN': 'str',
-        'KOMMUNE_NR': 'Int64',
-        'KOMMUNE_NAVN': 'str',
-        'BYGNINGS_NR': 'Int64',
-        'BYGNING_LNR': 'Int64',
-        'BYGNINGSTYPE_NR': 'Int64',
-        'BYGNINGSTYPE_NAVN': 'str',
-        'BYGNINGSSTATUS_NR': 'str',
-        'BYGNINGSSTATUS_NAVN': 'str',
-        'GODKJENT_DATO': 'Int64',
-        'IGANGSATT_DATO': 'Int64',
-        'TATT_I_BRUK_DATO': 'Int64',
-        'NAERINGSGRUPPE_KODE': 'str',
-        'NAERINGSGRUPPE_NAVN': 'str',
-        'PAABYGG_TILBYGG_KODE': 'str',
-        'PAABYGG_TILBYGG_NAVN': 'str',
-        'VANNFORSYNING_NR': 'Int64',
-        'VANNFORSYNING_NAVN': 'str',
-        'BRUKSAREAL_TOTALT': 'float64',
-        'BRUKSAREAL_BOLIG': 'float64',
-        'BRUKSAREAL_ANNET_BOLIG': 'float64',
-        'ANTALL_ETASJER': 'Int64',
-        'ANTALL_BOLIGER': 'Int64',
-        'LKOORDINATSYSTEM_NR': 'Int64',
-        'LKOORDINATSYSTEM_NAVN': 'str',
-        'LKOORDINAT_KVALITET_KODE': 'str',
-        'LKOORDINAT_KVALITET_NAVN': 'str',
-        'LX_KOORDINAT': 'float64',
-        'LY_KOORDINAT': 'float64',
-        'LZ_KOORDINAT': 'float64',
-        'EIENDOM_ANTALL': 'Int64',
-        'HAR_HEIS': 'boolean',
-        'BEBYGD_AREAL': 'float64',
-    }
+    with open("static/json/building-base.json", "r") as reader:
+        static_data = json.loads(reader.read())
     
-    df = pd.read_csv(directory, dtype=dtypes, na_values={'LKOORDINAT_KVALITET_KODE': '--'}).drop(columns=['Unnamed: 0'])
+    dtypes = static_data["dtypes"]
+    column_renames = static_data["renames"]
+    na_values = static_data["na_values"]
+    directory = static_data["dir"] + f"-{start}-{end}.csv"
+    
+    df = pd.read_csv(directory, dtype=dtypes, na_values=na_values).drop(columns=['Unnamed: 0'])
     df = df.replace({np.nan: None, pd.NA: None})
-    df = df.rename(columns=str.lower).rename(columns={
-        'bygning_id': 'building_id',
-        'fylkes_nr': 'county_number',
-        'fylkes_navn': 'county_name',
-        'kommune_nr': 'city_number',
-        'kommune_navn': 'city_name',
-        'bygnings_nr': 'building_number',
-    })
+    df = df.rename(columns=str.lower).rename(columns=column_renames)
     return df.to_dict(orient='records')
 
 
-def process_bygg_adresse_data(segment_number):
+def process_building_extension_data(segment_number):
     start = (segment_number - 1) * 10000
     end = segment_number * 10000
-    directory = f'raw-data/csv/bygg_adresse/bygg_adresse-{start}-{end}.csv'
     
-    dtypes = {
-        'KOMMUNE_NR': 'Int64',
-        'KOMMUNE_NAVN': 'str',
-        'BYGNINGS_NR': 'Int64',
-        'BYGNING_LNR': 'Int64',
-        'BYGNINGSTYPE_NR': 'Int64',
-        'BYGNINGSTYPE_NAVN': 'str',
-        'BYGNINGSSTATUS_NR': 'str',
-        'BYGNINGSSTATUS_NAVN': 'str',
-        'GODKJENT_DATO': 'Int64',
-        'IGANGSATT_DATO': 'Int64',
-        'TATT_I_BRUK_DATO': 'Int64',
-        'BRUKSAREAL_TOTALT': 'float64',
-        'KOMMUNE_NR_ADR': 'Int64',
-        'KOMMUNE_NAVN_ADR': 'str',
-        'ADRESSE_ID': 'Int64',
-        'GATENAVN': 'str',
-        'GATENAVNKODE': 'Int64',
-        'HUSNUMMER': 'Int64',
-        'BOKSTAV': 'str',
-        'UNDERNUMMER': 'Int64',
-        'POST_NR': 'Int64',
-        'POSTSTED': 'str',
-    }
+    with open("static/json/building-base.json", "r") as reader:
+        static_data = json.loads(reader.read())
+    
+    dtypes = static_data["dtypes"]
+    column_renames = static_data["renames"]
+    directory = static_data["dir"] + f"-{start}-{end}.csv"
     
     df = pd.read_csv(directory, dtype=dtypes).drop(columns=['Unnamed: 0'])
     df = df.replace({np.nan: None, pd.NA: None})
-    df = df.rename(columns=str.lower).rename(columns={
-        'bygnings_nr': 'building_number',
-        'kommune_nr': 'city_number',
-        'kommune_navn': 'city_name',
-    })
+    df = df.rename(columns=str.lower).rename(columns=column_renames)
     return df.to_dict(orient='records')
